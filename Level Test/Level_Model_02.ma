@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: Level_Model_01.ma
-//Last modified: Thu, Feb 08, 2018 11:55:21 AM
+//Name: Level_Model_02.ma
+//Last modified: Thu, Feb 08, 2018 11:58:05 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1037BAFB-4580-7980-90D2-DD979FDBCA91";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -16.325297371077458 -65.516424444145301 -13.310036785989393 ;
-	setAttr ".r" -type "double3" 69.861647265041384 -8054.1999999896198 0 ;
+	setAttr ".t" -type "double3" -51.503378736019826 178.9331435359673 138.99745068377371 ;
+	setAttr ".r" -type "double3" -51.338352734474832 -7946.5999999870337 1.7785268749302433e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "33E77D4E-4FE7-E109-92C8-F88A6025DCD7";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 55.110063017327008;
+	setAttr ".coi" 237.05659183068673;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -83,6 +83,7 @@ createNode mesh -n "pCylinderShape1" -p "pCylinder1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -95,6 +96,14 @@ createNode mesh -n "pCylinderShape1" -p "pCylinder1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.74879247 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.74879247 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -152,6 +161,7 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -164,6 +174,14 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.52509171 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.52509171 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -221,6 +239,7 @@ createNode mesh -n "pCylinderShape3" -p "pCylinder3";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -233,6 +252,14 @@ createNode mesh -n "pCylinderShape3" -p "pCylinder3";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.69744253 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.69744253 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -359,6 +386,7 @@ createNode mesh -n "pCylinderShape7" -p "pCylinder7";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -371,6 +399,14 @@ createNode mesh -n "pCylinderShape7" -p "pCylinder7";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.77314806 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.77314806 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -428,6 +464,7 @@ createNode mesh -n "pCylinderShape8" -p "pCylinder8";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -440,6 +477,14 @@ createNode mesh -n "pCylinderShape8" -p "pCylinder8";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.55933213 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.55933213 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -497,6 +542,7 @@ createNode mesh -n "pCylinderShape9" -p "pCylinder9";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -509,6 +555,14 @@ createNode mesh -n "pCylinderShape9" -p "pCylinder9";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.27394858 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.27394858 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -566,6 +620,7 @@ createNode mesh -n "pCylinderShape10" -p "pCylinder10";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -578,6 +633,14 @@ createNode mesh -n "pCylinderShape10" -p "pCylinder10";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.40770248 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.40770248 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -635,6 +698,7 @@ createNode mesh -n "pCylinderShape11" -p "pCylinder11";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -647,6 +711,14 @@ createNode mesh -n "pCylinderShape11" -p "pCylinder11";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.72575259 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.72575259 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -704,6 +776,7 @@ createNode mesh -n "pCylinderShape12" -p "pCylinder12";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -716,6 +789,14 @@ createNode mesh -n "pCylinderShape12" -p "pCylinder12";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.3025521 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.3025521 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -1118,6 +1199,7 @@ createNode mesh -n "pCylinderShape24" -p "pCylinder24";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -1130,6 +1212,14 @@ createNode mesh -n "pCylinderShape24" -p "pCylinder24";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.76357079 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.76357079 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -1412,6 +1502,7 @@ createNode mesh -n "pCylinderShape28" -p "pCylinder28";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.421875 0.15312498807907104 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -1424,6 +1515,14 @@ createNode mesh -n "pCylinderShape28" -p "pCylinder28";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.76623917 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.76623917 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -1481,6 +1580,7 @@ createNode mesh -n "pCylinderShape31" -p "pCylinder31";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -1493,6 +1593,14 @@ createNode mesh -n "pCylinderShape31" -p "pCylinder31";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.74842978 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.74842978 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -2258,6 +2366,7 @@ createNode mesh -n "pCylinderShape45" -p "pCylinder45";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.15625 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 28 ".uvst[0].uvsp[0:27]" -type "float2" 0.57812506 0.020933539
 		 0.42187503 0.020933509 0.34375 0.15624997 0.421875 0.29156646 0.578125 0.29156649
@@ -2270,6 +2379,14 @@ createNode mesh -n "pCylinderShape45" -p "pCylinder45";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 7 ".pt";
+	setAttr ".pt[0]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[1]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[2]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[3]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[4]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[5]" -type "float3" 0 0.14120564 0 ;
+	setAttr ".pt[12]" -type "float3" 0 0.14120564 0 ;
 	setAttr -s 14 ".vt[0:13]"  0.50000024 -1 -0.86602533 -0.49999985 -1 -0.86602551
 		 -1 -1 -1.4901161e-007 -0.50000012 -1 0.86602539 0.49999997 -1 0.86602545 1 -1 0 0.50000024 1 -0.86602533
 		 -0.49999985 1 -0.86602551 -1 1 -1.4901161e-007 -0.50000012 1 0.86602539 0.49999997 1 0.86602545
@@ -5250,18 +5367,33 @@ createNode mesh -n "polySurfaceShape3" -p "polySurface1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.125 0 ;
+	setAttr ".pv" -type "double2" 0.84560498595237732 0 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 10 ".pt";
+	setAttr -s 25 ".pt";
 	setAttr ".pt[557]" -type "float3" 0 5.2140136 2.6645353e-015 ;
 	setAttr ".pt[558]" -type "float3" 0 5.2140136 2.6645353e-015 ;
 	setAttr ".pt[559]" -type "float3" 0 5.2140136 2.6645353e-015 ;
 	setAttr ".pt[560]" -type "float3" 0 5.4596591 4.4408921e-015 ;
 	setAttr ".pt[569]" -type "float3" 0 0.24564561 1.7763568e-015 ;
+	setAttr ".pt[577]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[578]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[579]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[580]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[581]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[582]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[583]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[584]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[585]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[586]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[587]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[588]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[589]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[590]" -type "float3" 0 2.9398339 0 ;
+	setAttr ".pt[591]" -type "float3" 0 2.9398339 0 ;
 	setAttr ".pt[675]" -type "float3" 0 0.24564561 1.7763568e-015 ;
 	setAttr ".pt[676]" -type "float3" 0 5.4596591 4.4408921e-015 ;
 	setAttr ".pt[677]" -type "float3" 0 5.2140136 2.6645353e-015 ;
@@ -14534,4 +14666,4 @@ connectAttr "pPipeShape8.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
-// End of Level_Model_01.ma
+// End of Level_Model_02.ma
