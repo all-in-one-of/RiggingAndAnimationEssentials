@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb353212-3039-42d4-9a62-ea2947530c69" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CatTutorial.mat" afterPath="$PROJECT_DIR$/Assets/Materials/CatTutorial.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader" afterPath="$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader" />
-      <change beforePath="$PROJECT_DIR$/Assets/Testing Ground.unity" afterPath="$PROJECT_DIR$/Assets/Testing Ground.unity" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" afterPath="$PROJECT_DIR$/Library/ScriptMapper" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/25/25ea1801124f248468d5d994f4bad161" afterPath="$PROJECT_DIR$/Library/metadata/25/25ea1801124f248468d5d994f4bad161" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7be30cd17055af34197c8408b617ed93.info" afterPath="$PROJECT_DIR$/Library/metadata/7b/7be30cd17055af34197c8408b617ed93.info" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
-      <change beforePath="$PROJECT_DIR$/Shader Tests.sln" afterPath="$PROJECT_DIR$/Shader Tests.sln" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
