@@ -19,7 +19,7 @@
 			#pragma vertex vert
 			#pragma fragment frag
 			// make fog work
-			#pragma multi_compile_fog
+			//#pragma multi_compile_fog
 			
 			#include "UnityCG.cginc"
 
@@ -34,7 +34,7 @@
 			struct v2f
 			{
 				float2 uv : TEXCOORD0;
-				UNITY_FOG_COORDS(1)
+				//UNITY_FOG_COORDS(1)
 				float4 vertex : SV_POSITION;
 				
 				float3 wPos:TEXCOORD1;
@@ -44,7 +44,8 @@
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
 			
-			sampler2D _NoiseText;
+			sampler2D _NoiseTex;
+			
 			float _Scale;
 			float _Intensity;
 			
@@ -53,7 +54,7 @@
 				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-				UNITY_TRANSFER_FOG(o,o.vertex);
+				//UNITY_TRANSFER_FOG(o,o.vertex);
 				
 				o.wPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 				o.wNormal = UnityObjectToWorldNormal(v.normal);
@@ -65,17 +66,17 @@
 				// sample the texture
 				fixed4 col = tex2D(_MainTex, i.uv);
 				// apply fog
-				UNITY_APPLY_FOG(i.fogCoord, col);
+				//UNITY_APPLY_FOG(i.fogCoord, col);
 
 				
-				fixed3 sparklemap = tex2D(_NoiseText, i.uv*_Scale);
+				fixed3 sparklemap = tex2D(_NoiseTex, i.uv * _Scale);
 				sparklemap -= half3(0.5,0.5,0.5);
 				sparklemap = normalize(normalize(sparklemap) + i.wNormal);
 				
 				half3 viewDirection = normalize(i.wPos - _WorldSpaceCameraPos);
 				half sparkle = dot(-viewDirection, sparklemap);
 				sparkle = pow(saturate(sparkle), _Intensity);
-				col += half4(sparkle,sparkle,sparkle,0);
+				col += half4(sparkle, sparkle, sparkle, 0);
 				
 				return col;
 			}

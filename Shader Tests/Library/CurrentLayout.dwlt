@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 127
+  controlID: 143
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 46
+  controlID: 22
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -387,9 +387,9 @@ MonoBehaviour:
     height: 427
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: b4fbffff00000000
+    m_SelectedIDs: 021efeff
+    m_LastClickedID: -123390
+    m_ExpandedIDs: 88fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,20 +483,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Shaders
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Shaders
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jonat\Git Repos\RiggingAndAnimationEssentials\Shader
+  m_LastProjectPath: C:\Users\10795516\Git Repos\RiggingAndAnimationEssentials\Shader
     Tests
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a260000
-    m_LastClickedID: 9834
-    m_ExpandedIDs: 0000000066260000e4260000e826000000ca9a3bffffff7f
+    m_SelectedIDs: 98260000
+    m_LastClickedID: 9880
+    m_ExpandedIDs: 000000008a2600008e260000902600009426000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,7 +524,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066260000
+    m_ExpandedIDs: 000000008a2600009026000094260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
+  m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1059, y: 440}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -682,14 +682,14 @@ MonoBehaviour:
     width: 1059
     height: 465
   m_SceneLighting: 1
-  lastFramingTime: 12224.13595334553
+  lastFramingTime: 8060.176413446009
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2186928, y: -0.24924159, z: 1.8491358}
+    m_Target: {x: 2.0372372, y: -0.06462729, z: -0.40809727}
     speed: 2
-    m_Value: {x: 1.2186928, y: -0.24924159, z: 1.8491358}
+    m_Value: {x: 2.0372372, y: -0.06462729, z: -0.40809727}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -712,13 +712,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.117384344, y: 0.6977725, z: -0.11744097, w: 0.69689834}
+    m_Target: {x: 0.11527715, y: 0.30433404, z: -0.038481984, w: 0.9449246}
     speed: 2
-    m_Value: {x: 0.117377, y: 0.6977288, z: -0.11743362, w: 0.6968547}
+    m_Value: {x: 0.11526151, y: 0.30429277, z: -0.038476765, w: 0.94479644}
   m_Size:
-    m_Target: 4.824918
+    m_Target: 2.6355066
     speed: 2
-    m_Value: 4.824918
+    m_Value: 2.6355066
   m_Ortho:
     m_Target: 0
     speed: 2

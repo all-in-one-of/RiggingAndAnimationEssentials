@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb353212-3039-42d4-9a62-ea2947530c69" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Tests/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bb353212-3039-42d4-9a62-ea2947530c69" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +14,14 @@
       <file leaf-file-name="Test.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+                <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+                <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+                <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,61 +29,79 @@
       <file leaf-file-name="SparkleShader.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatTutorial.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="600">
+              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
-                <marker date="1518755126823" expanded="true" signature="111:1716" ph="{...}" />
-                <marker date="1518755126823" expanded="true" signature="132:184" ph="{...}" />
-                <marker date="1518755126823" expanded="true" signature="202:1714" ph="{...}" />
-                <marker date="1518755126823" expanded="true" signature="219:1711" ph="{...}" />
-                <marker date="1518755126823" expanded="true" signature="239:1699" ph="{...}" />
+                <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+                <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+                <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+                <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+                <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatTutorialwStructs.shader" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatTutorialwStructs.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorialwStructs.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
               <folding>
-                <marker date="1518814720431" expanded="true" signature="111:2543" ph="{...}" />
-                <marker date="1518814720431" expanded="true" signature="132:336" ph="{...}" />
-                <marker date="1518814720431" expanded="true" signature="354:2541" ph="{...}" />
-                <marker date="1518814720431" expanded="true" signature="371:2538" ph="{...}" />
-                <marker date="1518814720431" expanded="true" signature="391:2526" ph="{...}" />
+                <marker date="1519141198686" expanded="true" signature="111:2543" ph="{...}" />
+                <marker date="1519141198686" expanded="true" signature="132:336" ph="{...}" />
+                <marker date="1519141198686" expanded="true" signature="354:2541" ph="{...}" />
+                <marker date="1519141198686" expanded="true" signature="371:2538" ph="{...}" />
+                <marker date="1519141198686" expanded="true" signature="391:2526" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericVFShader.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
+      <file leaf-file-name="CombiningTextures.shader" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/CombiningTextures.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="345">
+              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+              <folding>
+                <marker date="1519153036181" expanded="true" signature="33:2901" ph="{...}" />
+                <marker date="1519153036181" expanded="true" signature="54:304" ph="{...}" />
+                <marker date="1519153036181" expanded="true" signature="322:2899" ph="{...}" />
+                <marker date="1519153036181" expanded="true" signature="339:2896" ph="{...}" />
+                <marker date="1519153036181" expanded="true" signature="359:2884" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+      <file leaf-file-name="SplatMap.shader" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/SplatMap.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="684">
+              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+              <folding>
+                <marker date="1519156578206" expanded="true" signature="108:3143" ph="{...}" />
+                <marker date="1519156578206" expanded="true" signature="129:546" ph="{...}" />
+                <marker date="1519156578206" expanded="true" signature="564:3141" ph="{...}" />
+                <marker date="1519156578206" expanded="true" signature="581:3138" ph="{...}" />
+                <marker date="1519156578206" expanded="true" signature="601:3126" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstLight.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/FirstLight.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+              <folding>
+                <marker date="1519164400780" expanded="true" signature="110:3087" ph="{...}" />
+                <marker date="1519164400780" expanded="true" signature="131:335" ph="{...}" />
+                <marker date="1519164400780" expanded="true" signature="353:3085" ph="{...}" />
+                <marker date="1519164400780" expanded="true" signature="370:3082" ph="{...}" />
+                <marker date="1519164400780" expanded="true" signature="390:3070" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,20 +112,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorialwStructs.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/SplatMap.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/CombiningTextures.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/FirstLight.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorialwStructs.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Shaders/Test.shader" />
-        <option value="$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/CatTutorialwStructs.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/CombiningTextures.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/SplatMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/FirstLight.shader" />
       </list>
     </option>
   </component>
@@ -115,8 +141,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="794" />
-    <option name="width" value="1133" />
+    <option name="x" value="759" />
+    <option name="width" value="1168" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -147,6 +173,19 @@
               <item name="Shader Tests (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Shader Tests (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Shader Tests (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shaders" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,6 +197,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,6 +231,7 @@
       <workItem from="1518753331764" duration="27000" />
       <workItem from="1518753427592" duration="391000" />
       <workItem from="1518753835473" duration="5752000" />
+      <workItem from="1519149441443" duration="10744000" />
     </task>
     <task id="LOCAL-00001" summary="Doin some shader work">
       <created>1518753569650</created>
@@ -203,7 +244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13508000" />
+    <option name="totallyTimeSpent" value="24252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,23 +256,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="0" width="1133" height="1047" extended-state="0" />
+    <frame x="759" y="0" width="1168" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016775396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -260,91 +301,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
-            <marker date="1518755126823" expanded="true" signature="111:1716" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="132:184" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="202:1714" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="219:1711" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="239:1699" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518755126823" expanded="true" signature="111:1716" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="132:184" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="202:1714" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="219:1711" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="239:1699" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1519141198685" expanded="true" signature="111:1716" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="132:184" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="202:1714" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="219:1711" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="239:1699" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -352,20 +342,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
           <folding>
-            <marker date="1518755126823" expanded="true" signature="111:1716" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="132:184" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="202:1714" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="219:1711" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="239:1699" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="31:937" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="46:90" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="103:935" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="172:923" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -374,15 +356,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shader Tests.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,7 +369,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,7 +383,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-          <folding />
+          <folding>
+            <marker date="1518723456794" expanded="true" signature="31:937" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="46:90" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="103:935" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="172:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <marker date="1519141198685" expanded="true" signature="111:1716" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="132:184" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="202:1714" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="219:1711" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="239:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <marker date="1518723456794" expanded="true" signature="31:937" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="46:90" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="103:935" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="172:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519141198685" expanded="true" signature="111:1716" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="132:184" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="202:1714" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="219:1711" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="239:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <marker date="1518723456794" expanded="true" signature="31:937" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="46:90" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="103:935" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="172:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
+          <folding>
+            <marker date="1519141198685" expanded="true" signature="111:1716" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="132:184" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="202:1714" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="219:1711" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="239:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shader Tests.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -406,34 +528,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SparkleShader.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
-            <marker date="1518755126823" expanded="true" signature="111:1716" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="132:184" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="202:1714" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="219:1711" ph="{...}" />
-            <marker date="1518755126823" expanded="true" signature="239:1699" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="29:1731" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="44:208" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="221:1729" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="276:1726" ph="{...}" />
+            <marker date="1519154885161" expanded="true" signature="290:1717" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorialwStructs.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="62" lean-forward="false" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
           <folding>
-            <marker date="1518814720431" expanded="true" signature="111:2543" ph="{...}" />
-            <marker date="1518814720431" expanded="true" signature="132:336" ph="{...}" />
-            <marker date="1518814720431" expanded="true" signature="354:2541" ph="{...}" />
-            <marker date="1518814720431" expanded="true" signature="371:2538" ph="{...}" />
-            <marker date="1518814720431" expanded="true" signature="391:2526" ph="{...}" />
+            <marker date="1519141198686" expanded="true" signature="111:2543" ph="{...}" />
+            <marker date="1519141198686" expanded="true" signature="132:336" ph="{...}" />
+            <marker date="1519141198686" expanded="true" signature="354:2541" ph="{...}" />
+            <marker date="1519141198686" expanded="true" signature="371:2538" ph="{...}" />
+            <marker date="1519141198686" expanded="true" signature="391:2526" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CatTutorial.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1519141198685" expanded="true" signature="111:1716" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="132:184" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="202:1714" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="219:1711" ph="{...}" />
+            <marker date="1519141198685" expanded="true" signature="239:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/GenericVFShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <marker date="1518723456794" expanded="true" signature="31:937" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="46:90" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="103:935" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1518723456794" expanded="true" signature="172:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Test.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1518722450608" expanded="true" signature="21:1371" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="35:212" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="224:1349" ph="{...}" />
+            <marker date="1518722450608" expanded="true" signature="283:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/CombiningTextures.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <marker date="1519153036181" expanded="true" signature="33:2901" ph="{...}" />
+            <marker date="1519153036181" expanded="true" signature="54:304" ph="{...}" />
+            <marker date="1519153036181" expanded="true" signature="322:2899" ph="{...}" />
+            <marker date="1519153036181" expanded="true" signature="339:2896" ph="{...}" />
+            <marker date="1519153036181" expanded="true" signature="359:2884" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/SplatMap.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <marker date="1519156578206" expanded="true" signature="108:3143" ph="{...}" />
+            <marker date="1519156578206" expanded="true" signature="129:546" ph="{...}" />
+            <marker date="1519156578206" expanded="true" signature="564:3141" ph="{...}" />
+            <marker date="1519156578206" expanded="true" signature="581:3138" ph="{...}" />
+            <marker date="1519156578206" expanded="true" signature="601:3126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/FirstLight.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding>
+            <marker date="1519164400780" expanded="true" signature="110:3087" ph="{...}" />
+            <marker date="1519164400780" expanded="true" signature="131:335" ph="{...}" />
+            <marker date="1519164400780" expanded="true" signature="353:3085" ph="{...}" />
+            <marker date="1519164400780" expanded="true" signature="370:3082" ph="{...}" />
+            <marker date="1519164400780" expanded="true" signature="390:3070" ph="{...}" />
           </folding>
         </state>
       </provider>
