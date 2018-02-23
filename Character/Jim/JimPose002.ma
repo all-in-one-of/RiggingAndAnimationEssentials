@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff07 scene
 //Name: JimPose002.ma
-//Last modified: Fri, Feb 23, 2018 11:55:18 AM
+//Last modified: Fri, Feb 23, 2018 12:27:45 PM
 //Codeset: 1252
 requires maya "2018ff07";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKControlSetNode"
@@ -34655,8 +34655,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_HipsEffector" -p "QuickRigCh
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -1.620182991027832 88.998672127723694 -1.4767131805419922 ;
-	setAttr ".r" -type "double3" -0.073895077428699621 1.9939235234573471 43.280721778434234 ;
+	setAttr ".t" -type "double3" -1.6201934814453125 88.998672127723694 -1.4767227172851563 ;
+	setAttr ".r" -type "double3" -0.073894603928698593 1.9939239593236004 43.280772570308756 ;
 	setAttr ".s" -type "double3" 2.1005308772778872 2.1005308772778872 2.1005308772778872 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34680,8 +34680,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftAnkleEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" 18.879125595092773 12.099849343299866 -4.3171491622924805 ;
-	setAttr ".r" -type "double3" -0.091694412806122325 -14.270697884768898 0.72604037394260912 ;
+	setAttr ".t" -type "double3" 18.879119873046875 12.099849343299866 -4.3172197341918945 ;
+	setAttr ".r" -type "double3" -0.091700677217302448 -14.270700747744936 0.72606089629304782 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34707,8 +34707,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightAnkleEffector" -p "Quic
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -18.879167556762695 12.100040078163147 -4.316990852355957 ;
-	setAttr ".r" -type "double3" 0.090882848546260636 14.266471723285759 0.72612481794054762 ;
+	setAttr ".t" -type "double3" -18.879144668579102 12.099807381629944 -4.3171281814575195 ;
+	setAttr ".r" -type "double3" 0.090885963422360702 14.266426568484297 0.72616819936654964 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34734,8 +34734,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftWristEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" 48.295774459838867 91.185195565223694 10.20053768157959 ;
-	setAttr ".r" -type "double3" 52.524420922317212 -53.786810046798436 -30.602378114848207 ;
+	setAttr ".t" -type "double3" 48.295751571655273 91.185142159461975 10.200481414794922 ;
+	setAttr ".r" -type "double3" 52.524693378050308 -53.786720637747216 -30.602667386767521 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34759,8 +34759,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightWristEffector" -p "Quic
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -43.36808967590332 116.40658533573151 50.242045402526855 ;
-	setAttr ".r" -type "double3" 26.596456804526149 -16.952308744210285 114.23561809173945 ;
+	setAttr ".t" -type "double3" -43.368356704711914 116.40651667118073 50.242236137390137 ;
+	setAttr ".r" -type "double3" 26.596461673676188 -16.952212166932107 114.23560652964062 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34784,8 +34784,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftKneeEffector" -p "QuickR
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" 16.841825485229492 50.555686593055725 5.4655055999755859 ;
-	setAttr ".r" -type "double3" -15.467026112707625 -2.9391275227240143 14.272553379653912 ;
+	setAttr ".t" -type "double3" 16.841733932495117 50.555652260780334 5.4654717445373535 ;
+	setAttr ".r" -type "double3" -15.466986213191701 -2.9392493034940084 14.272605522022969 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34809,8 +34809,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightKneeEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" -19.448644638061523 50.250178933143616 6.7708706855773926 ;
-	setAttr ".r" -type "double3" 16.110613890204448 -0.8212305139882613 16.205828103334593 ;
+	setAttr ".t" -type "double3" -19.448038101196289 50.249999642372131 6.770576000213623 ;
+	setAttr ".r" -type "double3" 16.110713694012979 -0.82038235697555661 16.205595864502374 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34834,8 +34834,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftElbowEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" 32.93348503112793 115.56010401248932 19.286513328552246 ;
-	setAttr ".r" -type "double3" 52.524208536695852 -53.787215762191749 -30.602057345536664 ;
+	setAttr ".t" -type "double3" 32.93351936340332 115.56008875370026 19.286517143249512 ;
+	setAttr ".r" -type "double3" 52.524501280649027 -53.787242105883898 -30.602313429872609 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34859,8 +34859,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightElbowEffector" -p "Quic
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" -48.872495651245117 124.14148676395416 21.561667442321777 ;
-	setAttr ".r" -type "double3" -37.484641093363855 -14.834706628443154 100.86422546951323 ;
+	setAttr ".t" -type "double3" -48.872716903686523 124.14150202274323 21.561858177185059 ;
+	setAttr ".r" -type "double3" -37.484615430472786 -14.834873443239221 100.86411129921933 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34884,8 +34884,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_ChestOriginEffector" -p "Qui
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -2.1097722053527832 100.46118128299713 6.9564013481140137 ;
-	setAttr ".r" -type "double3" -0.52940434245222534 2.4753946210266231 43.173101174008849 ;
+	setAttr ".t" -type "double3" -2.1097772121429443 100.46122705936432 6.9563255310058594 ;
+	setAttr ".r" -type "double3" -0.52940120713446359 2.4753939987797997 43.173231180611339 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34908,8 +34908,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_ChestEndEffector" -p "QuickR
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -4.9140772819519043 132.18225061893463 40.856188774108887 ;
-	setAttr ".r" -type "double3" -0.27996049892380487 4.3604105002512918 42.869421015952412 ;
+	setAttr ".t" -type "double3" -4.9140806198120117 132.18222010135651 40.856181144714355 ;
+	setAttr ".r" -type "double3" -0.27995925126818877 4.3604065144456436 42.869511380579745 ;
 	setAttr ".s" -type "double3" 2.0272980530066014 2.0272980530066014 2.0272980530066014 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34932,8 +34932,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftFootEffector" -p "QuickR
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" 23.548585891723633 5.1105400323867798 12.658501625061035 ;
-	setAttr ".r" -type "double3" 5.2769426942424653 -13.278385902459569 0.099911795439702161 ;
+	setAttr ".t" -type "double3" 23.548582077026367 5.1105285882949829 12.658442497253418 ;
+	setAttr ".r" -type "double3" 5.2769380127755312 -13.278390862872211 0.099931949502391551 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34957,8 +34957,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightFootEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" -23.548694610595703 5.110700249671936 12.658644676208496 ;
-	setAttr ".r" -type "double3" -5.2760074297361319 13.274194851412233 0.10040788623231306 ;
+	setAttr ".t" -type "double3" -23.548654556274414 5.1104580163955688 12.658492088317871 ;
+	setAttr ".r" -type "double3" -5.2759993495606778 13.274144290425086 0.10045598089615938 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -34982,8 +34982,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftShoulderEffector" -p "Qu
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" 16.748802185058594 129.79425013065338 38.356059074401855 ;
-	setAttr ".r" -type "double3" 65.569741668556631 29.644105123293681 49.67794638250043 ;
+	setAttr ".t" -type "double3" 16.748805999755859 129.79421961307526 38.356047630310059 ;
+	setAttr ".r" -type "double3" 65.569962105864477 29.644042609386641 49.678016570063392 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35007,8 +35007,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightShoulderEffector" -p "Q
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -26.767965316772461 133.83876001834869 37.23184871673584 ;
-	setAttr ".r" -type "double3" 35.438829810982725 19.691900233283306 35.333181828441695 ;
+	setAttr ".t" -type "double3" -26.767986297607422 133.83871424198151 37.23184871673584 ;
+	setAttr ".r" -type "double3" 35.438791909879932 19.69178420482519 35.332802080218016 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35032,8 +35032,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_HeadEffector" -p "QuickRigCh
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -6.1251835823059082 142.03837549686432 53.406664848327637 ;
-	setAttr ".r" -type "double3" -0.17775171011064678 4.3657233803820663 42.872803255932865 ;
+	setAttr ".t" -type "double3" -9.5020380020141602 146.41027796268463 52.159846305847168 ;
+	setAttr ".r" -type "double3" -32.140079852486515 -4.087620686123139 8.8230039143670123 ;
 	setAttr ".s" -type "double3" 1.6996724921680368 1.6996724921680368 1.6996724921680368 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35057,8 +35057,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftHipEffector" -p "QuickRi
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" 10.009387969970703 89.28313410282135 -1.1882133483886719 ;
-	setAttr ".r" -type "double3" -14.571755922046123 -9.8637110088971856 -9.7487906714470416 ;
+	setAttr ".t" -type "double3" 10.009372711181641 89.28313410282135 -1.1882228851318359 ;
+	setAttr ".r" -type "double3" -14.571682023283559 -9.8637127923965018 -9.7486427548596275 ;
 	setAttr ".s" -type "double3" 2.1336509445714245 2.1336509445714245 2.1336509445714245 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35081,8 +35081,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_RightHipEffector" -p "QuickR
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" -13.249753952026367 88.714202523231506 -1.7652134895324707 ;
-	setAttr ".r" -type "double3" 17.357129625553544 8.9412733296111835 -12.511922832834992 ;
+	setAttr ".t" -type "double3" -13.249759674072266 88.714210152626038 -1.7652225494384766 ;
+	setAttr ".r" -type "double3" 17.356957206368477 8.9401617106845404 -12.511573488997724 ;
 	setAttr ".s" -type "double3" 2.1336509445714245 2.1336509445714245 2.1336509445714245 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35105,8 +35105,8 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Hips" -p "QuickRigCharacter_Ctr
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".ovc" 25;
-	setAttr ".t" -type "double3" -1.7330833673477173 91.747779488563538 0.36362695693969727 ;
-	setAttr ".r" -type "double3" -0.073895077428706005 1.9939235234573918 43.280721778434241 ;
+	setAttr ".t" -type "double3" -1.7330937385559082 91.747779488563538 0.36361932754516602 ;
+	setAttr ".r" -type "double3" -0.073894608975290793 1.9939239591366786 43.280772425264431 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
@@ -35128,7 +35128,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftUpLeg" -p "QuickRigCharacte
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -16.228284394482582 -8.7197094074315711 -52.763301272886451 ;
+	setAttr ".r" -type "double3" -16.228210134780632 -8.7197070984371639 -52.763202088016939 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35151,7 +35151,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftLeg" -p "QuickRigCharacter_
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" 1.8281269932728008 0.0035536401895064377 24.838962729750332 ;
+	setAttr ".r" -type "double3" 1.8280955988316707 0.0034984229512313595 24.838835359544021 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35174,7 +35174,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftFoot" -p "QuickRigCharacter
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.74063304806371688 1.4532737144420205 -13.074168503228321 ;
+	setAttr ".r" -type "double3" -0.74076998551315476 1.4532486836442289 -13.0741700643442 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35219,7 +35219,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightUpLeg" -p "QuickRigCharact
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" 15.64060627297869 9.9970073290945578 -56.076358304337603 ;
+	setAttr ".r" -type "double3" 15.640446728872226 9.9959051793294194 -56.076023012668294 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35243,7 +35243,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightLeg" -p "QuickRigCharacter
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -3.3349181561181718 -0.015204776095072458 30.22856420239356 ;
+	setAttr ".r" -type "double3" -3.3341434249880395 -0.0137683299738907 30.227404845590257 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35266,7 +35266,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightFoot" -p "QuickRigCharacte
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -2.4035752956871277 -1.6737462549086346 -15.872566920839686 ;
+	setAttr ".r" -type "double3" -2.4028470439863474 -1.6739610521499126 -15.872085723911605 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35288,7 +35288,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightToeBase" -p "QuickRigChara
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -1.5360771216494894e-05 -2.4666727330441589e-06 1.5758603125149501e-21 ;
+	setAttr ".r" -type "double3" -2.7921762536658083e-05 -1.2417074350493168e-05 2.4114648376434679e-22 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35312,7 +35312,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Spine" -p "QuickRigCharacter_Ct
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.11053640216359741 0.52452906105885411 -0.097940642597771604 ;
+	setAttr ".r" -type "double3" -0.11053645392677407 0.52452747551224488 -0.097861203167320887 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35335,7 +35335,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Spine1" -p "QuickRigCharacter_C
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.22027088894140517 0.89224160507986749 -0.15387175227409453 ;
+	setAttr ".r" -type "double3" -0.22027182646325791 0.89223607805717542 -0.15388637974087466 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35358,7 +35358,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Spine2" -p "QuickRigCharacter_C
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.054222945681396358 0.91742847649822501 -0.15246166895897353 ;
+	setAttr ".r" -type "double3" -0.054220564106055122 0.91743081063402698 -0.15248678197092699 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35381,7 +35381,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftShoulder" -p "QuickRigChara
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -2.7747568972066256e-05 -1.3568711002206683e-05 -2.1516266644984383e-06 ;
+	setAttr ".r" -type "double3" -2.1676725312773716e-05 -1.0586568665113681e-05 -5.1137961032218754e-07 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35404,7 +35404,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftArm" -p "QuickRigCharacter_
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" 18.54254759706393 58.624240235321892 16.817801584793816 ;
+	setAttr ".r" -type "double3" 18.542697369448369 58.624268602730673 16.817822059609291 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35427,7 +35427,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftForeArm" -p "QuickRigCharac
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.00023166236910002286 -0.00038101006841441908 27.830720018196914 ;
+	setAttr ".r" -type "double3" -0.0002945119645966337 -0.0004051828867948123 27.830729838637222 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35450,7 +35450,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftHand" -p "QuickRigCharacter
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -4.6419907721229512e-05 9.5596810704579922e-05 -0.00043660715663329541 ;
+	setAttr ".r" -type "double3" -9.3484974429204672e-05 0.00015131579975244893 -0.00054107406222183684 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35473,7 +35473,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightShoulder" -p "QuickRigChar
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.65589524043158454 -17.479736293858775 -27.981037506257202 ;
+	setAttr ".r" -type "double3" -0.65593807176066188 -17.479655737870111 -27.980986883531216 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35496,7 +35496,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightArm" -p "QuickRigCharacter
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -15.066833172106971 61.809198856921178 -9.2798897372999907 ;
+	setAttr ".r" -type "double3" -15.067027197941949 61.808829342526856 -9.2801090176024843 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35519,7 +35519,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightForeArm" -p "QuickRigChara
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -0.0028713718011108029 0.002018076415176422 124.79197519330818 ;
+	setAttr ".r" -type "double3" -0.0030728566979311561 0.0021985546250224046 124.79156262431924 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35542,7 +35542,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_RightHand" -p "QuickRigCharacte
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -15.107491686404517 -16.147313543978434 30.814906920114854 ;
+	setAttr ".r" -type "double3" -15.107503703479157 -16.147304642276843 30.815030051238235 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35565,7 +35565,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Neck" -p "QuickRigCharacter_Ctr
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -5.165912586062188e-06 -3.7960725337934669e-05 0.0015207585531112849 ;
+	setAttr ".r" -type "double3" -4.8181380378498444 8.8156928487950346 -10.937188621415 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35588,7 +35588,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Neck1" -p "QuickRigCharacter_Ct
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -2.6571392959771748e-06 -9.4481233714310843e-06 -0.0019836675781014358 ;
+	setAttr ".r" -type "double3" -7.3512728662334235 7.1679460074526826 -12.526920711408525 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35611,7 +35611,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Head" -p "QuickRigCharacter_Ctr
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -7.8790766362059808e-13 1.2366394520724464e-06 -3.6464906765896786e-05 ;
+	setAttr ".r" -type "double3" -9.7358834579921911 -2.8799977993426027 -13.620183643470996 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -35638,15 +35638,15 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "camera1";
 	rename -uid "98188190-4D36-76D8-DFF2-A0BD059DA630";
-	setAttr ".t" -type "double3" -209.07241590553204 111.58598671279162 -23.937941230930015 ;
-	setAttr ".r" -type "double3" 4.7999999999997272 -107.19999999998707 0 ;
+	setAttr ".t" -type "double3" -97.083724653943207 130.26087614564671 69.05837750990932 ;
+	setAttr ".r" -type "double3" 11.399999999995497 -75.999999999997172 0 ;
 createNode camera -n "cameraShape1" -p "camera1";
 	rename -uid "6184844E-4A7D-E9D4-4A00-A5956F677C54";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 185.20434264724059;
+	setAttr ".coi" 82.043707215304281;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
@@ -35674,7 +35674,7 @@ createNode transform -n "ambientLight1";
 createNode ambientLight -n "ambientLightShape1" -p "ambientLight1";
 	rename -uid "F92A055C-496C-1A62-F89E-0DB9521281A5";
 	setAttr -k off ".v";
-	setAttr ".in" 0.05000000074505806;
+	setAttr ".in" 0.0099999997764825821;
 	setAttr ".urs" no;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "141BDFA3-495A-9197-5E2B-D5AA16D08D65";
@@ -36937,127 +36937,135 @@ createNode HIKSolverNode -n "HIKSolverNode1";
 createNode HIKState2SK -n "HIKState2SK1";
 	rename -uid "93D00248-4F37-D416-6039-EE9BDD6C0176";
 	setAttr ".ihi" 0;
-	setAttr ".HipsTx" -1.7330813407897949;
+	setAttr ".HipsTx" -1.7330918312072754;
 	setAttr ".HipsTy" 91.747779488563538;
-	setAttr ".HipsTz" 0.36362385749816895;
-	setAttr ".HipsRx" -0.28769736916583133;
-	setAttr ".HipsRy" 1.9744554907739689;
-	setAttr ".HipsRz" 43.277050594351081;
-	setAttr ".LeftUpLegTx" -3.3046423477135676;
-	setAttr ".LeftUpLegTy" 0.19113581591592066;
-	setAttr ".LeftUpLegTz" 11.636604999119186;
-	setAttr ".LeftUpLegRx" -16.228271087706755;
-	setAttr ".LeftUpLegRy" -8.7198208699060391;
-	setAttr ".LeftUpLegRz" -52.763305154988132;
-	setAttr ".LeftLegTx" 39.884530140810107;
-	setAttr ".LeftLegTy" -1.9228281820105053e-05;
-	setAttr ".LeftLegTz" -5.2584684201661958e-05;
-	setAttr ".LeftLegRx" 1.8281578349753898;
-	setAttr ".LeftLegRy" 0.0036183857607195958;
-	setAttr ".LeftLegRz" 24.839099925893656;
-	setAttr ".LeftFootTx" 39.732852567423237;
-	setAttr ".LeftFootTy" 1.8850031515249555e-05;
-	setAttr ".LeftFootTz" 1.7451801639367659e-06;
-	setAttr ".LeftFootRx" -0.74067420878898194;
-	setAttr ".LeftFootRy" 1.4533109191147819;
-	setAttr ".LeftFootRz" -13.074275052737304;
-	setAttr ".RightUpLegTx" -3.3046373187605838;
-	setAttr ".RightUpLegTy" 0.19113446942681378;
-	setAttr ".RightUpLegTz" -11.636603710917996;
-	setAttr ".RightUpLegRx" -15.640600178731411;
-	setAttr ".RightUpLegRy" -9.9971470377054992;
-	setAttr ".RightUpLegRz" -56.076379236982639;
-	setAttr ".RightLegTx" -39.884490774101486;
-	setAttr ".RightLegTy" 1.2736701268778461e-05;
-	setAttr ".RightLegTz" 9.0321071255061725e-05;
-	setAttr ".RightLegRx" 3.3349814651865977;
-	setAttr ".RightLegRy" 0.01531361313987443;
-	setAttr ".RightLegRz" 30.228671532018261;
-	setAttr ".RightFootTx" -39.732883562379257;
-	setAttr ".RightFootTy" -3.2084096490692104e-06;
-	setAttr ".RightFootTz" 8.6829621785966538e-06;
-	setAttr ".RightFootRx" 2.4035864428235936;
-	setAttr ".RightFootRy" 1.6737366223275332;
-	setAttr ".RightFootRz" -15.872616006514999;
-	setAttr ".SpineTx" 10.932962801934181;
-	setAttr ".SpineTy" -5.6697730812516056e-06;
-	setAttr ".SpineTz" 4.9976408311724896e-07;
-	setAttr ".SpineRx" -0.11053532824824616;
-	setAttr ".SpineRy" 0.52452768062305333;
-	setAttr ".SpineRz" -0.097940632374502096;
-	setAttr ".LeftArmTx" 11.60480265199876;
-	setAttr ".LeftArmTy" -3.6102075284816237e-06;
-	setAttr ".LeftArmTz" 3.9277181116403881e-06;
-	setAttr ".LeftArmRx" 18.542673278614185;
-	setAttr ".LeftArmRy" -58.624276372759283;
-	setAttr ".LeftArmRz" -16.817967907856147;
-	setAttr ".LeftForeArmTx" 28.778509378523268;
-	setAttr ".LeftForeArmTy" 3.5229256752700167e-05;
-	setAttr ".LeftForeArmTz" -2.4094537664609561e-05;
-	setAttr ".LeftForeArmRx" -0.00019268108129807699;
-	setAttr ".LeftForeArmRy" -0.000324146155590858;
-	setAttr ".LeftForeArmRz" 27.830815593978834;
-	setAttr ".LeftHandTx" 30.210797267491884;
-	setAttr ".LeftHandTy" -2.1024008987069465e-06;
-	setAttr ".LeftHandTz" -2.1608479556789462e-06;
-	setAttr ".LeftHandRy" 9.4121951735638774e-05;
-	setAttr ".LeftHandRz" -0.0004428140028557769;
-	setAttr ".RightArmTx" -11.604803668420647;
-	setAttr ".RightArmTy" 4.3096457886804274e-06;
-	setAttr ".RightArmTz" -4.4603531321740775e-06;
-	setAttr ".RightArmRx" -15.066900863585744;
-	setAttr ".RightArmRy" -61.809140403015192;
-	setAttr ".RightArmRz" 9.2799727627958806;
-	setAttr ".RightForeArmTx" -28.778521124848403;
-	setAttr ".RightForeArmTy" 4.1272346152254613e-05;
-	setAttr ".RightForeArmTz" -2.7651891315372268e-05;
-	setAttr ".RightForeArmRx" -0.0029122588143524874;
-	setAttr ".RightForeArmRy" 0.0020415102295699857;
-	setAttr ".RightForeArmRz" 124.79192304944037;
-	setAttr ".RightHandTx" -30.210789244973984;
-	setAttr ".RightHandTy" -1.3802701403164974e-05;
-	setAttr ".RightHandTz" 3.6816257136251807e-06;
-	setAttr ".RightHandRx" 15.10750966688928;
-	setAttr ".RightHandRy" 16.147329995762462;
-	setAttr ".RightHandRz" 30.814884400842885;
-	setAttr ".HeadTx" 7.237891854421207;
-	setAttr ".HeadTy" 8.0583589294747071e-06;
-	setAttr ".HeadTz" 2.3761010181644338e-06;
-	setAttr ".LeftToeBaseTx" 18.942741115668039;
-	setAttr ".LeftToeBaseTy" -2.5291128915583272e-06;
-	setAttr ".LeftToeBaseTz" 1.5278741511082217e-05;
-	setAttr ".RightToeBaseTx" -18.942739728454569;
-	setAttr ".RightToeBaseTy" 2.8682975106164577e-08;
-	setAttr ".RightToeBaseTz" 2.5177607589910167e-06;
-	setAttr ".LeftShoulderTx" 16.219483659502387;
-	setAttr ".LeftShoulderTy" 9.2124405877093309;
-	setAttr ".LeftShoulderTz" 10.9112644671109;
-	setAttr ".RightShoulderTx" 16.219469592827224;
-	setAttr ".RightShoulderTy" 9.2124439119952726;
-	setAttr ".RightShoulderTz" -10.91127317977641;
-	setAttr ".RightShoulderRx" -0.65589109997644301;
-	setAttr ".RightShoulderRy" 17.479738714578179;
-	setAttr ".RightShoulderRz" 27.981028676093509;
-	setAttr ".NeckTx" 21.440043337838247;
-	setAttr ".NeckTy" -1.9778084094923543e-06;
-	setAttr ".NeckTz" -4.0419543436698291e-06;
-	setAttr ".NeckRz" 0.0015250780524930423;
-	setAttr ".Spine1Tx" 16.698583425856484;
-	setAttr ".Spine1Ty" -3.0996508755265495e-06;
-	setAttr ".Spine1Tz" 1.378380727556916e-06;
-	setAttr ".Spine1Rx" -0.22026702786292665;
-	setAttr ".Spine1Ry" 0.89222858276827999;
-	setAttr ".Spine1Rz" -0.15386518746963962;
-	setAttr ".Spine2Tx" 13.790481797484915;
-	setAttr ".Spine2Ty" -2.8533478868553175e-06;
-	setAttr ".Spine2Tz" -1.8957478120640303e-06;
-	setAttr ".Spine2Rx" -0.054225486075045154;
-	setAttr ".Spine2Ry" 0.91742674626027521;
-	setAttr ".Spine2Rz" -0.15246577473208106;
-	setAttr ".Neck1Tx" 8.7803923038599549;
-	setAttr ".Neck1Ty" 2.1577582742793311e-07;
-	setAttr ".Neck1Tz" 7.7718575290930403e-06;
-	setAttr ".Neck1Rz" -0.0019893097662888296;
+	setAttr ".HipsTz" 0.36361575126647949;
+	setAttr ".HipsRx" -0.28769564045748663;
+	setAttr ".HipsRy" 1.9744450564617204;
+	setAttr ".HipsRz" 43.277097727159848;
+	setAttr ".LeftUpLegTx" -3.3046405000657728;
+	setAttr ".LeftUpLegTy" 0.19113780495241883;
+	setAttr ".LeftUpLegTz" 11.636602731290294;
+	setAttr ".LeftUpLegRx" -16.228210495377876;
+	setAttr ".LeftUpLegRy" -8.7197350499971389;
+	setAttr ".LeftUpLegRz" -52.763250050216065;
+	setAttr ".LeftLegTx" 39.884514504845512;
+	setAttr ".LeftLegTy" -7.8211530016858433e-06;
+	setAttr ".LeftLegTz" -3.2025182871819879e-05;
+	setAttr ".LeftLegRx" 1.8281258896281021;
+	setAttr ".LeftLegRy" 0.0035314589594426108;
+	setAttr ".LeftLegRz" 24.838917102124746;
+	setAttr ".LeftFootTx" 39.732851151516627;
+	setAttr ".LeftFootTy" 1.4136455634528033e-05;
+	setAttr ".LeftFootTz" -6.5686716510526821e-08;
+	setAttr ".LeftFootRx" -0.74073836865423537;
+	setAttr ".LeftFootRy" 1.4532656484574138;
+	setAttr ".LeftFootRz" -13.074191177431526;
+	setAttr ".RightUpLegTx" -3.3046408652540293;
+	setAttr ".RightUpLegTy" 0.19113524656344083;
+	setAttr ".RightUpLegTz" -11.636600295636571;
+	setAttr ".RightUpLegRx" -15.640442466408661;
+	setAttr ".RightUpLegRy" -9.9957735224710156;
+	setAttr ".RightUpLegRz" -56.0759816130223;
+	setAttr ".RightLegTx" -39.884492091354396;
+	setAttr ".RightLegTy" -1.6621079591772059e-05;
+	setAttr ".RightLegTz" -0.00015175664686495338;
+	setAttr ".RightLegRx" 3.3340469448132315;
+	setAttr ".RightLegRy" 0.013560265220036042;
+	setAttr ".RightLegRz" 30.227251548118517;
+	setAttr ".RightFootTx" -39.732823368001952;
+	setAttr ".RightFootTy" -7.746012545162273e-06;
+	setAttr ".RightFootTz" 7.0614340366148554e-06;
+	setAttr ".RightFootRx" 2.4027328306662787;
+	setAttr ".RightFootRy" 1.6739845002238458;
+	setAttr ".RightFootRz" -15.872016722408656;
+	setAttr ".SpineTx" 10.932963597686197;
+	setAttr ".SpineTy" -9.223624886089965e-07;
+	setAttr ".SpineTz" -7.243356267006007e-07;
+	setAttr ".SpineRx" -0.1105401737566179;
+	setAttr ".SpineRy" 0.52452359950965621;
+	setAttr ".SpineRz" -0.097863680163154498;
+	setAttr ".LeftArmTx" 11.604799757768276;
+	setAttr ".LeftArmTy" 2.4979057258178727e-06;
+	setAttr ".LeftArmTz" -2.5515194295167021e-06;
+	setAttr ".LeftArmRx" 18.542697097211633;
+	setAttr ".LeftArmRy" -58.624275684891678;
+	setAttr ".LeftArmRz" -16.817835712356189;
+	setAttr ".LeftForeArmTx" 28.778512859866971;
+	setAttr ".LeftForeArmTy" 3.4835210271921824e-08;
+	setAttr ".LeftForeArmTz" -1.1506815965844908e-05;
+	setAttr ".LeftForeArmRx" -0.00028650901539068493;
+	setAttr ".LeftForeArmRy" -0.00038903264403970415;
+	setAttr ".LeftForeArmRz" 27.830749263387684;
+	setAttr ".LeftHandTx" 30.210789022208694;
+	setAttr ".LeftHandTy" 8.3987159982257253e-06;
+	setAttr ".LeftHandTz" 1.0551787639201393e-05;
+	setAttr ".LeftHandRx" -0.00010318141971853827;
+	setAttr ".LeftHandRy" 0.00016287402543771536;
+	setAttr ".LeftHandRz" -0.00052781118486268657;
+	setAttr ".RightArmTx" -11.604810449540057;
+	setAttr ".RightArmTy" 5.2010983750960804e-06;
+	setAttr ".RightArmTz" -7.7341907456229819e-06;
+	setAttr ".RightArmRx" -15.06712075079926;
+	setAttr ".RightArmRy" -61.808761029461891;
+	setAttr ".RightArmRz" 9.2802367640008079;
+	setAttr ".RightForeArmTx" -28.778522781557449;
+	setAttr ".RightForeArmTy" 3.6989668892317695e-05;
+	setAttr ".RightForeArmTz" -1.8358054120426459e-05;
+	setAttr ".RightForeArmRx" -0.0031032599397636902;
+	setAttr ".RightForeArmRy" 0.0022598294169040036;
+	setAttr ".RightForeArmRz" 124.7914961306942;
+	setAttr ".RightHandTx" -30.210791947939644;
+	setAttr ".RightHandTy" -1.9070547850219555e-05;
+	setAttr ".RightHandTz" -1.206484455451573e-05;
+	setAttr ".RightHandRx" 15.107507877618891;
+	setAttr ".RightHandRy" 16.14729099323872;
+	setAttr ".RightHandRz" 30.815042820633334;
+	setAttr ".HeadTx" 7.2379195917140606;
+	setAttr ".HeadTy" 5.551611195642181e-06;
+	setAttr ".HeadTz" -9.0738882465579707e-06;
+	setAttr ".HeadRx" -8.6529138276118225;
+	setAttr ".HeadRy" 5.3239953222709122;
+	setAttr ".HeadRz" -14.268592127921396;
+	setAttr ".LeftToeBaseTx" 18.94274116278218;
+	setAttr ".LeftToeBaseTy" -3.406639595304739e-06;
+	setAttr ".LeftToeBaseTz" 9.3999376638009835e-06;
+	setAttr ".RightToeBaseTx" -18.942733998602474;
+	setAttr ".RightToeBaseTy" -1.7116813744166848e-07;
+	setAttr ".RightToeBaseTz" 1.2431070359752994e-06;
+	setAttr ".LeftShoulderTx" 16.219458382706037;
+	setAttr ".LeftShoulderTy" 9.2124411934760246;
+	setAttr ".LeftShoulderTz" 10.911262898429712;
+	setAttr ".RightShoulderTx" 16.219462531902963;
+	setAttr ".RightShoulderTy" 9.2124420277835881;
+	setAttr ".RightShoulderTz" -10.911261155195156;
+	setAttr ".RightShoulderRx" -0.65592515591832767;
+	setAttr ".RightShoulderRy" 17.479657845013246;
+	setAttr ".RightShoulderRz" 27.980983906275718;
+	setAttr ".NeckTx" 21.43998691679154;
+	setAttr ".NeckTy" -2.8307998618970487e-05;
+	setAttr ".NeckTz" 5.1226515918045834e-06;
+	setAttr ".NeckRx" -4.8181391025909663;
+	setAttr ".NeckRy" 8.8156623757592047;
+	setAttr ".NeckRz" -10.93719315433901;
+	setAttr ".Spine1Tx" 16.698580811389377;
+	setAttr ".Spine1Ty" -1.5526550214417512e-06;
+	setAttr ".Spine1Tz" -3.4625504798935225e-06;
+	setAttr ".Spine1Rx" -0.2202755018710571;
+	setAttr ".Spine1Ry" 0.89225328718490182;
+	setAttr ".Spine1Rz" -0.1538887916599779;
+	setAttr ".Spine2Tx" 13.790480060612907;
+	setAttr ".Spine2Ty" -3.4660585157553214e-07;
+	setAttr ".Spine2Tz" 1.3196363126688482e-06;
+	setAttr ".Spine2Rx" -0.05421653482843207;
+	setAttr ".Spine2Ry" 0.91742232290853432;
+	setAttr ".Spine2Rz" -0.15247937312639798;
+	setAttr ".Neck1Tx" 8.7803343786867174;
+	setAttr ".Neck1Ty" 3.9790833170627593e-06;
+	setAttr ".Neck1Tz" -1.385857085089981e-06;
+	setAttr ".Neck1Rx" -7.3512731845258505;
+	setAttr ".Neck1Ry" 7.1678925069129829;
+	setAttr ".Neck1Rz" -12.526904043337211;
 createNode HIKControlSetNode -n "QuickRigCharacter_ControlRig";
 	rename -uid "27D5D7E2-4FC9-CAC2-2D96-028963985B82";
 	setAttr ".ihi" 0;
@@ -37154,147 +37162,147 @@ createNode HIKPinning2State -n "HIKPinning2State1";
 createNode HIKState2FK -n "HIKState2FK1";
 	rename -uid "481BE413-4201-B33B-220E-A895B9FC6A40";
 	setAttr ".ihi" 0;
-	setAttr ".HipsGX" -type "matrix" 0.99939370155334473 0.024445578455924988 0.024792401120066643 0
-		 -0.034793507307767868 0.72756266593933105 0.68515843152999878 0 -0.0012889317004010081 -0.68560552597045898 0.72797203063964844 0
-		 -1.7330832481384277 90.075477600097656 -3.8169896602630615 1;
-	setAttr ".LeftUpLegGX" -type "matrix" 0.95352673530578613 0.12080073356628418 -0.27603304386138916 0
-		 -0.1713070422410965 0.97099101543426514 -0.16682575643062592 0 0.24787290394306183 0.20635919272899628 0.94655972719192505 0
-		 10.009365081787109 87.610832214355469 -5.3688273429870605 1;
-	setAttr ".LeftLegGX" -type "matrix" 0.96251630783081055 0.11364000290632248 -0.24626897275447845 0
-		 -0.051274988800287247 0.96785867214202881 0.24621230363845825 0 0.26633310317993164 -0.22435590624809265 0.93740659952163696 0
-		 16.841823577880859 48.883319854736328 1.2849717140197754 1;
-	setAttr ".LeftFootGX" -type "matrix" 0.96914070844650269 0.092368543148040771 -0.22854854166507721 0
-		 -0.089511111378669739 0.99572348594665527 0.022860234603285789 0 0.22968268394470215 -0.0016971508739516139 0.97326403856277466 0
-		 18.879127502441406 10.427539825439453 -8.4977655410766602 1;
-	setAttr ".RightUpLegGX" -type "matrix" 0.94286513328552246 -0.080190390348434448 0.32338088750839233 0
-		 0.1554216742515564 0.96438783407211304 -0.21401089429855347 0 -0.29470288753509521 0.25204375386238098 0.92175078392028809 0
-		 -13.249732971191406 87.041908264160156 -5.9458255767822266 1;
-	setAttr ".RightLegGX" -type "matrix" 0.96062940359115601 -0.064222082495689392 0.27030965685844421 0
-		 -0.014333292841911316 0.96016669273376465 0.27906098961830139 0 -0.27746409177780151 -0.27194851636886597 0.92144352197647095 0
-		 -19.448677062988281 48.577892303466797 2.5902843475341797 1;
-	setAttr ".RightFootGX" -type "matrix" 0.96915894746780396 -0.092353940010070801 0.22847713530063629 0
-		 0.089496627449989319 0.99572485685348511 0.022858563810586929 0 -0.22961141169071198 -0.001705649308860302 0.97328096628189087 0
-		 -18.879171371459961 10.427711486816406 -8.4976100921630859 1;
-	setAttr ".SpineGX" -type "matrix" 0.99902451038360596 0.031033460050821304 0.031425192952156067 0
-		 -0.044133994728326797 0.72846835851669312 0.68365675210952759 0 -0.0016760220751166344 -0.68437653779983521 0.72912716865539551 0
-		 -2.1097662448883057 98.788917541503906 2.775714635848999 1;
-	setAttr ".LeftArmGX" -type "matrix" 0.56238847970962524 -0.49461027979850769 -0.66263139247894287 0
-		 0.82652711868286133 0.35945236682891846 0.43318271636962891 0 0.023927658796310425 -0.79129958152770996 0.61096060276031494 0
-		 16.748813629150391 128.12199401855469 34.175388336181641 1;
-	setAttr ".LeftForeArmGX" -type "matrix" 0.50850290060043335 -0.80682843923568726 -0.30075272917747498 0
-		 0.8265305757522583 0.3594491183757782 0.43317803740501404 0 -0.24139505624771118 -0.46885374188423157 0.84964948892593384 0
-		 32.93353271484375 113.88783264160156 15.105880737304688 1;
-	setAttr ".LeftHandGX" -type "matrix" 0.5085066556930542 -0.8068244457244873 -0.30075863003730774 0
-		 0.82653015851974487 0.35945126414299011 0.43317806720733643 0 -0.24139058589935303 -0.46885982155799866 0.84964793920516968 0
-		 48.295822143554688 89.512901306152344 6.0198993682861328 1;
-	setAttr ".RightArmGX" -type "matrix" 0.76809412240982056 0.33696198463439941 0.54450750350952148 0
-		 -0.55930089950561523 0.76708829402923584 0.31425851583480835 0 -0.3117920458316803 -0.54592353105545044 0.77765899896621704 0
-		 -26.767978668212891 132.16650390625 33.051174163818359 1;
-	setAttr ".RightForeArmGX" -type "matrix" -0.18219992518424988 0.25603142380714417 -0.94934242963790894 0
-		 -0.55934840440750122 0.76706725358963013 0.31422439217567444 0 0.80866092443466187 0.58826488256454468 0.0034511536359786987 0
-		 -48.87255859375 122.46923828125 17.381015777587891 1;
-	setAttr ".RightHandGX" -type "matrix" -0.39265310764312744 -0.29157537221908569 -0.87224268913269043 0
-		 -0.51526886224746704 0.8553277850151062 -0.053965061902999878 0 0.76178836822509766 0.42824998497962952 -0.48608687520027161 0
-		 -43.368144989013672 114.73433685302734 46.0614013671875 1;
-	setAttr ".HeadGX" -type "matrix" 0.99709373712539673 0.053676579147577286 0.054065462201833725 0
-		 -0.076122790575027466 0.73073947429656982 0.67839908599853516 0 -0.003093622624874115 -0.68054306507110596 0.73270171880722046 0
-		 -6.1251749992370605 140.36613464355469 49.225933074951172 1;
-	setAttr ".LeftToeBaseGX" -type "matrix" 0.96914070844650269 0.092368558049201965 -0.22854852676391602 0
-		 -0.089511111378669739 0.99572348594665527 0.022860238328576088 0 0.22968266904354095 -0.0016971527365967631 0.97326403856277466 0
-		 23.548593521118164 3.438227653503418 8.4778947830200195 1;
-	setAttr ".RightToeBaseGX" -type "matrix" 0.96915894746780396 -0.092354238033294678 0.22847709059715271 0
-		 0.089496903121471405 0.99572479724884033 0.022858629003167152 0 -0.22961139678955078 -0.0017056511715054512 0.97328096628189087 0
-		 -23.548696517944336 3.4383730888366699 8.4780216217041016 1;
-	setAttr ".LeftShoulderGX" -type "matrix" 0.99709403514862061 0.053676683455705643 0.054065883159637451 0
-		 -0.076123178005218506 0.73073422908782959 0.67840510606765747 0 -0.0030932407826185226 -0.68054908514022827 0.73269647359848022 0
-		 5.9654827117919922 131.09567260742188 37.265445709228516 1;
-	setAttr ".RightShoulderGX" -type "matrix" 0.87328076362609863 -0.48093134164810181 -0.078013107180595398 0
-		 0.38355696201324463 0.57987368106842041 0.71877032518386841 0 -0.3004414439201355 -0.65761071443557739 0.69085699319839478 0
-		 -15.79362964630127 129.92430114746094 36.085586547851563 1;
-	setAttr ".NeckGX" -type "matrix" 0.99709397554397583 0.053676620125770569 0.054065287113189697 0
-		 -0.07612280547618866 0.73071569204330444 0.67842495441436768 0 -0.0030907858163118362 -0.68056881427764893 0.73267799615859985 0
-		 -5.266108512878418 140.51727294921875 33.232589721679688 1;
-	setAttr ".Spine1GX" -type "matrix" 0.9981876015663147 0.042345747351646423 0.0427657850086689 0
-		 -0.06013726070523262 0.72969514131546021 0.68112337589263916 0 -0.0023633034434169531 -0.6824604868888855 0.73091894388198853 0
-		 -2.8309836387634277 112.73532104492188 11.931060791015625 1;
-	setAttr ".Spine2GX" -type "matrix" 0.9970935583114624 0.05367669090628624 0.054065883159637451 0
-		 -0.076123178005218506 0.73073351383209229 0.6784052848815918 0 -0.0030931998044252396 -0.6805492639541626 0.73269575834274292 0
-		 -3.6360204219818115 124.51346588134766 19.058795928955078 1;
-	setAttr ".Neck1GX" -type "matrix" 0.99709373712539673 0.0536765456199646 0.054065436124801636 0
-		 -0.076122745871543884 0.73073911666870117 0.67839944362640381 0 -0.0030935872346162796 -0.68054342269897461 0.73270136117935181 0
-		 -5.7422266006469727 140.53073120117188 42.000053405761719 1;
+	setAttr ".HipsGX" -type "matrix" 0.99939370155334473 0.024445567280054092 0.024792419746518135 0
+		 -0.034793514758348465 0.7275620698928833 0.68515896797180176 0 -0.001288924366235733 -0.68560612201690674 0.72797149419784546 0
+		 -1.7330937385559082 90.075477600097656 -3.816997766494751 1;
+	setAttr ".LeftUpLegGX" -type "matrix" 0.95352733135223389 0.12079998850822449 -0.27603179216384888 0
+		 -0.17130553722381592 0.97099167108535767 -0.16682401299476624 0 0.24787212908267975 0.20635697245597839 0.94656050205230713 0
+		 10.00935173034668 87.610832214355469 -5.3688364028930664 1;
+	setAttr ".LeftLegGX" -type "matrix" 0.96251660585403442 0.11364099383354187 -0.24626775085926056 0
+		 -0.051276464015245438 0.96785891056060791 0.24621167778968811 0 0.26633211970329285 -0.22435504198074341 0.93740725517272949 0
+		 16.841762542724609 48.883312225341797 1.2848734855651855 1;
+	setAttr ".LeftFootGX" -type "matrix" 0.96914088726043701 0.092368587851524353 -0.22854840755462646 0
+		 -0.089511044323444366 0.9957236647605896 0.022860690951347351 0 0.22968263924121857 -0.0016976203769445419 0.97326433658599854 0
+		 18.879117965698242 10.427528381347656 -8.4978322982788086 1;
+	setAttr ".RightUpLegGX" -type "matrix" 0.94286972284317017 -0.080171205103397369 0.32337251305580139 0
+		 0.15539778769016266 0.96439296007156372 -0.21400493383407593 0 -0.29470106959342957 0.25203010439872742 0.92175513505935669 0
+		 -13.249740600585938 87.041908264160156 -5.945836067199707 1;
+	setAttr ".RightLegGX" -type "matrix" 0.96062880754470825 -0.064237385988235474 0.27030730247497559 0
+		 -0.014315720647573471 0.96016836166381836 0.27905568480491638 0 -0.2774662971496582 -0.27193853259086609 0.92144566774368286 0
+		 -19.447956085205078 48.57769775390625 2.5899324417114258 1;
+	setAttr ".RightFootGX" -type "matrix" 0.96915912628173828 -0.092353716492652893 0.22847646474838257 0
+		 0.089496247470378876 0.99572497606277466 0.022859238088130951 0 -0.22961083054542542 -0.0017064519925042987 0.97328108549118042 0
+		 -18.879146575927734 10.427505493164063 -8.4977426528930664 1;
+	setAttr ".SpineGX" -type "matrix" 0.99902439117431641 0.031033448874950409 0.031425263732671738 0
+		 -0.044134035706520081 0.72846680879592896 0.68365824222564697 0 -0.001675986684858799 -0.68437802791595459 0.72912561893463135 0
+		 -2.1097760200500488 98.788909912109375 2.7757179737091064 1;
+	setAttr ".LeftArmGX" -type "matrix" 0.56238853931427002 -0.49460983276367188 -0.66263109445571899 0
+		 0.82652676105499268 0.35944986343383789 0.43318480253219604 0 0.023925242945551872 -0.79130053520202637 0.6109587550163269 0
+		 16.748802185058594 128.12191772460938 34.175434112548828 1;
+	setAttr ".LeftForeArmGX" -type "matrix" 0.50850170850753784 -0.80682867765426636 -0.30075469613075256 0
+		 0.82653135061264038 0.35944688320159912 0.43317866325378418 0 -0.24139562249183655 -0.46885532140731812 0.84964859485626221 0
+		 32.933525085449219 113.88778686523438 15.105901718139648 1;
+	setAttr ".LeftHandGX" -type "matrix" 0.50850647687911987 -0.80682343244552612 -0.30076146125793457 0
+		 0.82653045654296875 0.35945013165473938 0.43317806720733643 0 -0.24138951301574707 -0.46886226534843445 0.84964680671691895 0
+		 48.295753479003906 89.512847900390625 6.0198650360107422 1;
+	setAttr ".RightArmGX" -type "matrix" 0.76809799671173096 0.33696034550666809 0.5445026159286499 0
+		 -0.55929744243621826 0.76708900928497314 0.31426233053207397 0 -0.31178802251815796 -0.54592323303222656 0.77766060829162598 0
+		 -26.767990112304688 132.16641235351563 33.051239013671875 1;
+	setAttr ".RightForeArmGX" -type "matrix" -0.18219767510890961 0.25603395700454712 -0.94934231042861938 0
+		 -0.55934858322143555 0.76706725358963013 0.31422519683837891 0 0.80866152048110962 0.5882643461227417 0.0034544169902801514 0
+		 -48.872699737548828 122.46920013427734 17.381227493286133 1;
+	setAttr ".RightHandGX" -type "matrix" -0.39265340566635132 -0.29157429933547974 -0.87224310636520386 0
+		 -0.51526886224746704 0.85532844066619873 -0.053963795304298401 0 0.76178842782974243 0.42825049161911011 -0.48608657717704773 0
+		 -43.368339538574219 114.73421478271484 46.061603546142578 1;
+	setAttr ".HeadGX" -type "matrix" 0.84459686279296875 -0.14124234020709991 0.51643705368041992 0
+		 0.071282453835010529 0.9856533408164978 0.15299259126186371 0 -0.53063678741455078 -0.092404134571552277 0.84254765510559082 0
+		 -9.5020122528076172 144.73797607421875 47.979148864746094 1;
+	setAttr ".LeftToeBaseGX" -type "matrix" 0.96914088726043701 0.092368587851524353 -0.22854840755462646 0
+		 -0.089511044323444366 0.9957236647605896 0.0228606928139925 0 0.22968263924121857 -0.0016976222395896912 0.97326433658599854 0
+		 23.548578262329102 3.4382076263427734 8.4778261184692383 1;
+	setAttr ".RightToeBaseGX" -type "matrix" 0.96915918588638306 -0.09235420823097229 0.22847624123096466 0
+		 0.089496716856956482 0.99572491645812988 0.022859353572130203 0 -0.22961060702800751 -0.0017064781859517097 0.97328120470046997 0
+		 -23.54865837097168 3.4381551742553711 8.4778814315795898 1;
+	setAttr ".LeftShoulderGX" -type "matrix" 0.9970937967300415 0.053676623851060867 0.05406595766544342 0
+		 -0.0761231929063797 0.73073291778564453 0.67840617895126343 0 -0.0030932181980460882 -0.68055009841918945 0.73269510269165039 0
+		 5.9654712677001953 131.0955810546875 37.265495300292969 1;
+	setAttr ".RightShoulderGX" -type "matrix" 0.87328147888183594 -0.48092997074127197 -0.078013934195041656 0
+		 0.38355648517608643 0.57987374067306519 0.71877056360244751 0 -0.30044007301330566 -0.6576116681098938 0.6908566951751709 0
+		 -15.793628692626953 129.92422485351563 36.085643768310547 1;
+	setAttr ".NeckGX" -type "matrix" 0.9757002592086792 -0.00030207261443138123 0.21910971403121948 0
+		 -0.11797467619180679 0.84194713830947876 0.52650445699691772 0 -0.18463784456253052 -0.53955996036529541 0.82145243883132935 0
+		 -5.2661075592041016 140.51718139648438 33.232612609863281 1;
+	setAttr ".Spine1GX" -type "matrix" 0.9981876015663147 0.042345631867647171 0.042765844613313675 0
+		 -0.060137216001749039 0.72969377040863037 0.68112468719482422 0 -0.0023633111268281937 -0.68246191740036011 0.73091769218444824 0
+		 -2.8309941291809082 112.73529052734375 11.931094169616699 1;
+	setAttr ".Spine2GX" -type "matrix" 0.9970935583114624 0.05367661640048027 0.054065950214862823 0
+		 -0.076123178005218506 0.73073244094848633 0.67840641736984253 0 -0.0030931886285543442 -0.68055039644241333 0.73269468545913696 0
+		 -3.6360301971435547 124.51342010498047 19.05885124206543 1;
+	setAttr ".Neck1GX" -type "matrix" 0.92458373308181763 -0.073902472853660583 0.37374281883239746 0
+		 -0.065363794565200806 0.93568873405456543 0.34671971201896667 0 -0.37533029913902283 -0.34500056505203247 0.86029177904129028 0
+		 -7.1578969955444336 142.10208129882813 41.658969879150391 1;
 createNode HIKState2FK -n "HIKState2FK2";
 	rename -uid "930F0B9B-4158-DFEE-F5F5-12858C2F1D17";
 	setAttr ".ihi" 0;
-	setAttr ".HipsGX" -type "matrix" 0.99939370155334473 0.024445578455924988 0.024792401120066643 0
-		 -0.034793507307767868 0.72756266593933105 0.68515843152999878 0 -0.0012889317004010081 -0.68560552597045898 0.72797203063964844 0
-		 -1.7330832481384277 90.075477600097656 -3.8169896602630615 1;
-	setAttr ".LeftUpLegGX" -type "matrix" 0.95352673530578613 0.12080073356628418 -0.27603304386138916 0
-		 -0.1713070422410965 0.97099101543426514 -0.16682575643062592 0 0.24787290394306183 0.20635919272899628 0.94655972719192505 0
-		 10.009365081787109 87.610832214355469 -5.3688273429870605 1;
-	setAttr ".LeftLegGX" -type "matrix" 0.96251630783081055 0.11364000290632248 -0.24626897275447845 0
-		 -0.051274988800287247 0.96785867214202881 0.24621230363845825 0 0.26633310317993164 -0.22435590624809265 0.93740659952163696 0
-		 16.841823577880859 48.883319854736328 1.2849717140197754 1;
-	setAttr ".LeftFootGX" -type "matrix" 0.96914070844650269 0.092368543148040771 -0.22854854166507721 0
-		 -0.089511111378669739 0.99572348594665527 0.022860234603285789 0 0.22968268394470215 -0.0016971508739516139 0.97326403856277466 0
-		 18.879127502441406 10.427539825439453 -8.4977655410766602 1;
-	setAttr ".RightUpLegGX" -type "matrix" 0.94286513328552246 -0.080190390348434448 0.32338088750839233 0
-		 0.1554216742515564 0.96438783407211304 -0.21401089429855347 0 -0.29470288753509521 0.25204375386238098 0.92175078392028809 0
-		 -13.249732971191406 87.041908264160156 -5.9458255767822266 1;
-	setAttr ".RightLegGX" -type "matrix" 0.96062940359115601 -0.064222082495689392 0.27030965685844421 0
-		 -0.014333292841911316 0.96016669273376465 0.27906098961830139 0 -0.27746409177780151 -0.27194851636886597 0.92144352197647095 0
-		 -19.448677062988281 48.577892303466797 2.5902843475341797 1;
-	setAttr ".RightFootGX" -type "matrix" 0.96915894746780396 -0.092353940010070801 0.22847713530063629 0
-		 0.089496627449989319 0.99572485685348511 0.022858563810586929 0 -0.22961141169071198 -0.001705649308860302 0.97328096628189087 0
-		 -18.879171371459961 10.427711486816406 -8.4976100921630859 1;
-	setAttr ".SpineGX" -type "matrix" 0.99902451038360596 0.031033460050821304 0.031425192952156067 0
-		 -0.044133994728326797 0.72846835851669312 0.68365675210952759 0 -0.0016760220751166344 -0.68437653779983521 0.72912716865539551 0
-		 -2.1097662448883057 98.788917541503906 2.775714635848999 1;
-	setAttr ".LeftArmGX" -type "matrix" 0.56238847970962524 -0.49461027979850769 -0.66263139247894287 0
-		 0.82652711868286133 0.35945236682891846 0.43318271636962891 0 0.023927658796310425 -0.79129958152770996 0.61096060276031494 0
-		 16.748813629150391 128.12199401855469 34.175388336181641 1;
-	setAttr ".LeftForeArmGX" -type "matrix" 0.50850290060043335 -0.80682843923568726 -0.30075272917747498 0
-		 0.8265305757522583 0.3594491183757782 0.43317803740501404 0 -0.24139505624771118 -0.46885374188423157 0.84964948892593384 0
-		 32.93353271484375 113.88783264160156 15.105880737304688 1;
-	setAttr ".LeftHandGX" -type "matrix" 0.5085066556930542 -0.8068244457244873 -0.30075863003730774 0
-		 0.82653015851974487 0.35945126414299011 0.43317806720733643 0 -0.24139058589935303 -0.46885982155799866 0.84964793920516968 0
-		 48.295822143554688 89.512901306152344 6.0198993682861328 1;
-	setAttr ".RightArmGX" -type "matrix" 0.76809412240982056 0.33696198463439941 0.54450750350952148 0
-		 -0.55930089950561523 0.76708829402923584 0.31425851583480835 0 -0.3117920458316803 -0.54592353105545044 0.77765899896621704 0
-		 -26.767978668212891 132.16650390625 33.051174163818359 1;
-	setAttr ".RightForeArmGX" -type "matrix" -0.18219992518424988 0.25603142380714417 -0.94934242963790894 0
-		 -0.55934840440750122 0.76706725358963013 0.31422439217567444 0 0.80866092443466187 0.58826488256454468 0.0034511536359786987 0
-		 -48.87255859375 122.46923828125 17.381015777587891 1;
-	setAttr ".RightHandGX" -type "matrix" -0.39265310764312744 -0.29157537221908569 -0.87224268913269043 0
-		 -0.51526886224746704 0.8553277850151062 -0.053965061902999878 0 0.76178836822509766 0.42824998497962952 -0.48608687520027161 0
-		 -43.368144989013672 114.73433685302734 46.0614013671875 1;
-	setAttr ".HeadGX" -type "matrix" 0.99709373712539673 0.053676579147577286 0.054065462201833725 0
-		 -0.076122790575027466 0.73073947429656982 0.67839908599853516 0 -0.003093622624874115 -0.68054306507110596 0.73270171880722046 0
-		 -6.1251749992370605 140.36613464355469 49.225933074951172 1;
-	setAttr ".LeftToeBaseGX" -type "matrix" 0.96914070844650269 0.092368558049201965 -0.22854852676391602 0
-		 -0.089511111378669739 0.99572348594665527 0.022860238328576088 0 0.22968266904354095 -0.0016971527365967631 0.97326403856277466 0
-		 23.548593521118164 3.438227653503418 8.4778947830200195 1;
-	setAttr ".RightToeBaseGX" -type "matrix" 0.96915894746780396 -0.092354238033294678 0.22847709059715271 0
-		 0.089496903121471405 0.99572479724884033 0.022858629003167152 0 -0.22961139678955078 -0.0017056511715054512 0.97328096628189087 0
-		 -23.548696517944336 3.4383730888366699 8.4780216217041016 1;
-	setAttr ".LeftShoulderGX" -type "matrix" 0.99709403514862061 0.053676683455705643 0.054065883159637451 0
-		 -0.076123178005218506 0.73073422908782959 0.67840510606765747 0 -0.0030932407826185226 -0.68054908514022827 0.73269647359848022 0
-		 5.9654827117919922 131.09567260742188 37.265445709228516 1;
-	setAttr ".RightShoulderGX" -type "matrix" 0.87328076362609863 -0.48093134164810181 -0.078013107180595398 0
-		 0.38355696201324463 0.57987368106842041 0.71877032518386841 0 -0.3004414439201355 -0.65761071443557739 0.69085699319839478 0
-		 -15.79362964630127 129.92430114746094 36.085586547851563 1;
-	setAttr ".NeckGX" -type "matrix" 0.99709397554397583 0.053676620125770569 0.054065287113189697 0
-		 -0.07612280547618866 0.73071569204330444 0.67842495441436768 0 -0.0030907858163118362 -0.68056881427764893 0.73267799615859985 0
-		 -5.266108512878418 140.51727294921875 33.232589721679688 1;
-	setAttr ".Spine1GX" -type "matrix" 0.9981876015663147 0.042345747351646423 0.0427657850086689 0
-		 -0.06013726070523262 0.72969514131546021 0.68112337589263916 0 -0.0023633034434169531 -0.6824604868888855 0.73091894388198853 0
-		 -2.8309836387634277 112.73532104492188 11.931060791015625 1;
-	setAttr ".Spine2GX" -type "matrix" 0.9970935583114624 0.05367669090628624 0.054065883159637451 0
-		 -0.076123178005218506 0.73073351383209229 0.6784052848815918 0 -0.0030931998044252396 -0.6805492639541626 0.73269575834274292 0
-		 -3.6360204219818115 124.51346588134766 19.058795928955078 1;
-	setAttr ".Neck1GX" -type "matrix" 0.99709373712539673 0.0536765456199646 0.054065436124801636 0
-		 -0.076122745871543884 0.73073911666870117 0.67839944362640381 0 -0.0030935872346162796 -0.68054342269897461 0.73270136117935181 0
-		 -5.7422266006469727 140.53073120117188 42.000053405761719 1;
+	setAttr ".HipsGX" -type "matrix" 0.99939370155334473 0.024445567280054092 0.024792419746518135 0
+		 -0.034793514758348465 0.7275620698928833 0.68515896797180176 0 -0.001288924366235733 -0.68560612201690674 0.72797149419784546 0
+		 -1.7330937385559082 90.075477600097656 -3.816997766494751 1;
+	setAttr ".LeftUpLegGX" -type "matrix" 0.95352733135223389 0.12079998850822449 -0.27603179216384888 0
+		 -0.17130553722381592 0.97099167108535767 -0.16682401299476624 0 0.24787212908267975 0.20635697245597839 0.94656050205230713 0
+		 10.00935173034668 87.610832214355469 -5.3688364028930664 1;
+	setAttr ".LeftLegGX" -type "matrix" 0.96251660585403442 0.11364099383354187 -0.24626775085926056 0
+		 -0.051276464015245438 0.96785891056060791 0.24621167778968811 0 0.26633211970329285 -0.22435504198074341 0.93740725517272949 0
+		 16.841762542724609 48.883312225341797 1.2848734855651855 1;
+	setAttr ".LeftFootGX" -type "matrix" 0.96914088726043701 0.092368587851524353 -0.22854840755462646 0
+		 -0.089511044323444366 0.9957236647605896 0.022860690951347351 0 0.22968263924121857 -0.0016976203769445419 0.97326433658599854 0
+		 18.879117965698242 10.427528381347656 -8.4978322982788086 1;
+	setAttr ".RightUpLegGX" -type "matrix" 0.94286972284317017 -0.080171205103397369 0.32337251305580139 0
+		 0.15539778769016266 0.96439296007156372 -0.21400493383407593 0 -0.29470106959342957 0.25203010439872742 0.92175513505935669 0
+		 -13.249740600585938 87.041908264160156 -5.945836067199707 1;
+	setAttr ".RightLegGX" -type "matrix" 0.96062880754470825 -0.064237385988235474 0.27030730247497559 0
+		 -0.014315720647573471 0.96016836166381836 0.27905568480491638 0 -0.2774662971496582 -0.27193853259086609 0.92144566774368286 0
+		 -19.447956085205078 48.57769775390625 2.5899324417114258 1;
+	setAttr ".RightFootGX" -type "matrix" 0.96915912628173828 -0.092353716492652893 0.22847646474838257 0
+		 0.089496247470378876 0.99572497606277466 0.022859238088130951 0 -0.22961083054542542 -0.0017064519925042987 0.97328108549118042 0
+		 -18.879146575927734 10.427505493164063 -8.4977426528930664 1;
+	setAttr ".SpineGX" -type "matrix" 0.99902439117431641 0.031033448874950409 0.031425263732671738 0
+		 -0.044134035706520081 0.72846680879592896 0.68365824222564697 0 -0.001675986684858799 -0.68437802791595459 0.72912561893463135 0
+		 -2.1097760200500488 98.788909912109375 2.7757179737091064 1;
+	setAttr ".LeftArmGX" -type "matrix" 0.56238853931427002 -0.49460983276367188 -0.66263109445571899 0
+		 0.82652676105499268 0.35944986343383789 0.43318480253219604 0 0.023925242945551872 -0.79130053520202637 0.6109587550163269 0
+		 16.748802185058594 128.12191772460938 34.175434112548828 1;
+	setAttr ".LeftForeArmGX" -type "matrix" 0.50850170850753784 -0.80682867765426636 -0.30075469613075256 0
+		 0.82653135061264038 0.35944688320159912 0.43317866325378418 0 -0.24139562249183655 -0.46885532140731812 0.84964859485626221 0
+		 32.933525085449219 113.88778686523438 15.105901718139648 1;
+	setAttr ".LeftHandGX" -type "matrix" 0.50850647687911987 -0.80682343244552612 -0.30076146125793457 0
+		 0.82653045654296875 0.35945013165473938 0.43317806720733643 0 -0.24138951301574707 -0.46886226534843445 0.84964680671691895 0
+		 48.295753479003906 89.512847900390625 6.0198650360107422 1;
+	setAttr ".RightArmGX" -type "matrix" 0.76809799671173096 0.33696034550666809 0.5445026159286499 0
+		 -0.55929744243621826 0.76708900928497314 0.31426233053207397 0 -0.31178802251815796 -0.54592323303222656 0.77766060829162598 0
+		 -26.767990112304688 132.16641235351563 33.051239013671875 1;
+	setAttr ".RightForeArmGX" -type "matrix" -0.18219767510890961 0.25603395700454712 -0.94934231042861938 0
+		 -0.55934858322143555 0.76706725358963013 0.31422519683837891 0 0.80866152048110962 0.5882643461227417 0.0034544169902801514 0
+		 -48.872699737548828 122.46920013427734 17.381227493286133 1;
+	setAttr ".RightHandGX" -type "matrix" -0.39265340566635132 -0.29157429933547974 -0.87224310636520386 0
+		 -0.51526886224746704 0.85532844066619873 -0.053963795304298401 0 0.76178842782974243 0.42825049161911011 -0.48608657717704773 0
+		 -43.368339538574219 114.73421478271484 46.061603546142578 1;
+	setAttr ".HeadGX" -type "matrix" 0.84459686279296875 -0.14124234020709991 0.51643705368041992 0
+		 0.071282453835010529 0.9856533408164978 0.15299259126186371 0 -0.53063678741455078 -0.092404134571552277 0.84254765510559082 0
+		 -9.5020122528076172 144.73797607421875 47.979148864746094 1;
+	setAttr ".LeftToeBaseGX" -type "matrix" 0.96914088726043701 0.092368587851524353 -0.22854840755462646 0
+		 -0.089511044323444366 0.9957236647605896 0.0228606928139925 0 0.22968263924121857 -0.0016976222395896912 0.97326433658599854 0
+		 23.548578262329102 3.4382076263427734 8.4778261184692383 1;
+	setAttr ".RightToeBaseGX" -type "matrix" 0.96915918588638306 -0.09235420823097229 0.22847624123096466 0
+		 0.089496716856956482 0.99572491645812988 0.022859353572130203 0 -0.22961060702800751 -0.0017064781859517097 0.97328120470046997 0
+		 -23.54865837097168 3.4381551742553711 8.4778814315795898 1;
+	setAttr ".LeftShoulderGX" -type "matrix" 0.9970937967300415 0.053676623851060867 0.05406595766544342 0
+		 -0.0761231929063797 0.73073291778564453 0.67840617895126343 0 -0.0030932181980460882 -0.68055009841918945 0.73269510269165039 0
+		 5.9654712677001953 131.0955810546875 37.265495300292969 1;
+	setAttr ".RightShoulderGX" -type "matrix" 0.87328147888183594 -0.48092997074127197 -0.078013934195041656 0
+		 0.38355648517608643 0.57987374067306519 0.71877056360244751 0 -0.30044007301330566 -0.6576116681098938 0.6908566951751709 0
+		 -15.793628692626953 129.92422485351563 36.085643768310547 1;
+	setAttr ".NeckGX" -type "matrix" 0.9757002592086792 -0.00030207261443138123 0.21910971403121948 0
+		 -0.11797467619180679 0.84194713830947876 0.52650445699691772 0 -0.18463784456253052 -0.53955996036529541 0.82145243883132935 0
+		 -5.2661075592041016 140.51718139648438 33.232612609863281 1;
+	setAttr ".Spine1GX" -type "matrix" 0.9981876015663147 0.042345631867647171 0.042765844613313675 0
+		 -0.060137216001749039 0.72969377040863037 0.68112468719482422 0 -0.0023633111268281937 -0.68246191740036011 0.73091769218444824 0
+		 -2.8309941291809082 112.73529052734375 11.931094169616699 1;
+	setAttr ".Spine2GX" -type "matrix" 0.9970935583114624 0.05367661640048027 0.054065950214862823 0
+		 -0.076123178005218506 0.73073244094848633 0.67840641736984253 0 -0.0030931886285543442 -0.68055039644241333 0.73269468545913696 0
+		 -3.6360301971435547 124.51342010498047 19.05885124206543 1;
+	setAttr ".Neck1GX" -type "matrix" 0.92458373308181763 -0.073902472853660583 0.37374281883239746 0
+		 -0.065363794565200806 0.93568873405456543 0.34671971201896667 0 -0.37533029913902283 -0.34500056505203247 0.86029177904129028 0
+		 -7.1578969955444336 142.10208129882813 41.658969879150391 1;
 createNode HIKEffectorFromCharacter -n "HIKEffectorFromCharacter1";
 	rename -uid "661875E8-4F17-4144-81CE-3C9AD2D2E04E";
 	setAttr ".ihi" 0;
@@ -37306,117 +37314,117 @@ createNode HIKEffectorFromCharacter -n "HIKEffectorFromCharacter2";
 createNode HIKState2Effector -n "HIKState2Effector1";
 	rename -uid "0758AB82-4A5A-5905-A225-71B8C7F47094";
 	setAttr ".ihi" 0;
-	setAttr ".HipsEffectorGXM[0]" -type "matrix" 0.99939370155334473 0.024445578455924988 0.024792401120066643 0
-		 -0.034793507307767868 0.72756266593933105 0.68515843152999878 0 -0.00128893181681633 -0.68560558557510376 0.72797209024429321 0
-		 -1.6201839447021484 87.326370239257813 -5.6573266983032227 1;
-	setAttr ".LeftAnkleEffectorGXM[0]" -type "matrix" 0.96914070844650269 0.092368543148040771 -0.22854854166507721 0
-		 -0.089511111378669739 0.99572348594665527 0.022860234603285789 0 0.22968269884586334 -0.0016971509903669357 0.97326409816741943 0
-		 18.879127502441406 10.427539825439453 -8.4977655410766602 1;
-	setAttr ".RightAnkleEffectorGXM[0]" -type "matrix" 0.96915894746780396 -0.092353940010070801 0.22847713530063629 0
-		 0.089496627449989319 0.99572485685348511 0.022858563810586929 0 -0.22961141169071198 -0.001705649308860302 0.97328096628189087 0
-		 -18.879171371459961 10.427711486816406 -8.4976100921630859 1;
-	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" 0.50850671529769897 -0.80682450532913208 -0.30075865983963013 0
-		 0.82653015851974487 0.35945126414299011 0.43317806720733643 0 -0.24139060080051422 -0.46885985136032104 0.84964799880981445 0
-		 48.295822143554688 89.512901306152344 6.0198993682861328 1;
-	setAttr ".RightWristEffectorGXM[0]" -type "matrix" -0.39265310764312744 -0.29157537221908569 -0.87224268913269043 0
-		 -0.51526886224746704 0.8553277850151062 -0.053965061902999878 0 0.76178836822509766 0.42824998497962952 -0.48608687520027161 0
-		 -43.368144989013672 114.73433685302734 46.0614013671875 1;
-	setAttr ".LeftKneeEffectorGXM[0]" -type "matrix" 0.96251630783081055 0.11364000290632248 -0.24626897275447845 0
-		 -0.051274992525577545 0.96785873174667358 0.24621231853961945 0 0.26633313298225403 -0.22435592114925385 0.93740665912628174 0
-		 16.841823577880859 48.883319854736328 1.2849717140197754 1;
-	setAttr ".RightKneeEffectorGXM[0]" -type "matrix" 0.96062940359115601 -0.064222082495689392 0.27030965685844421 0
-		 -0.014333292841911316 0.96016669273376465 0.27906098961830139 0 -0.2774641215801239 -0.27194854617118835 0.92144358158111572 0
-		 -19.448677062988281 48.577892303466797 2.5902843475341797 1;
-	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" 0.50850296020507813 -0.80682849884033203 -0.30075275897979736 0
-		 0.8265305757522583 0.3594491183757782 0.43317803740501404 0 -0.24139505624771118 -0.46885374188423157 0.84964948892593384 0
-		 32.93353271484375 113.88783264160156 15.105880737304688 1;
-	setAttr ".RightElbowEffectorGXM[0]" -type "matrix" -0.18219992518424988 0.25603142380714417 -0.94934242963790894 0
-		 -0.559348464012146 0.7670673131942749 0.31422442197799683 0 0.80866092443466187 0.58826488256454468 0.0034511536359786987 0
-		 -48.87255859375 122.46923828125 17.381015777587891 1;
-	setAttr ".ChestOriginEffectorGXM[0]" -type "matrix" 0.99902451038360596 0.031033460050821304 0.031425192952156067 0
-		 -0.044133994728326797 0.72846835851669312 0.68365675210952759 0 -0.0016760220751166344 -0.68437653779983521 0.72912716865539551 0
-		 -2.1097662448883057 98.788917541503906 2.775714635848999 1;
-	setAttr ".ChestEndEffectorGXM[0]" -type "matrix" 0.9970935583114624 0.05367669090628624 0.054065883159637451 0
-		 -0.076123178005218506 0.73073351383209229 0.6784052848815918 0 -0.0030931998044252396 -0.6805492639541626 0.73269575834274292 0
-		 -4.9140734672546387 130.50997924804688 36.675514221191406 1;
-	setAttr ".LeftFootEffectorGXM[0]" -type "matrix" 0.96914070844650269 0.092368558049201965 -0.22854852676391602 0
-		 -0.089511111378669739 0.99572348594665527 0.022860238328576088 0 0.22968268394470215 -0.001697152853012085 0.97326409816741943 0
-		 23.548593521118164 3.438227653503418 8.4778947830200195 1;
-	setAttr ".RightFootEffectorGXM[0]" -type "matrix" 0.96915894746780396 -0.092354238033294678 0.22847709059715271 0
-		 0.089496910572052002 0.99572485685348511 0.022858630865812302 0 -0.22961139678955078 -0.0017056511715054512 0.97328096628189087 0
-		 -23.548696517944336 3.4383730888366699 8.4780216217041016 1;
-	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" 0.56238847970962524 -0.49461027979850769 -0.66263139247894287 0
-		 0.82652711868286133 0.35945236682891846 0.43318271636962891 0 0.023927658796310425 -0.79129958152770996 0.61096060276031494 0
-		 16.748813629150391 128.12199401855469 34.175388336181641 1;
-	setAttr ".RightShoulderEffectorGXM[0]" -type "matrix" 0.76809412240982056 0.33696198463439941 0.54450750350952148 0
-		 -0.55930089950561523 0.76708829402923584 0.31425851583480835 0 -0.3117920458316803 -0.54592353105545044 0.77765899896621704 0
-		 -26.767978668212891 132.16650390625 33.051174163818359 1;
-	setAttr ".HeadEffectorGXM[0]" -type "matrix" 0.99709373712539673 0.053676579147577286 0.054065462201833725 0
-		 -0.076122790575027466 0.73073947429656982 0.67839908599853516 0 -0.003093622624874115 -0.68054306507110596 0.73270171880722046 0
-		 -6.1251749992370605 140.36613464355469 49.225933074951172 1;
-	setAttr ".LeftHipEffectorGXM[0]" -type "matrix" 0.95352679491043091 0.12080074101686478 -0.27603307366371155 0
-		 -0.1713070422410965 0.97099101543426514 -0.16682575643062592 0 0.24787290394306183 0.20635919272899628 0.94655972719192505 0
-		 10.009365081787109 87.610832214355469 -5.3688273429870605 1;
-	setAttr ".RightHipEffectorGXM[0]" -type "matrix" 0.94286513328552246 -0.080190390348434448 0.32338088750839233 0
-		 0.1554216742515564 0.96438783407211304 -0.21401089429855347 0 -0.29470288753509521 0.25204375386238098 0.92175078392028809 0
-		 -13.249732971191406 87.041908264160156 -5.9458255767822266 1;
+	setAttr ".HipsEffectorGXM[0]" -type "matrix" 0.99939370155334473 0.024445567280054092 0.024792419746518135 0
+		 -0.034793514758348465 0.7275620698928833 0.68515896797180176 0 -0.001288924366235733 -0.68560612201690674 0.72797149419784546 0
+		 -1.6201944351196289 87.326370239257813 -5.6573362350463867 1;
+	setAttr ".LeftAnkleEffectorGXM[0]" -type "matrix" 0.96914094686508179 0.09236859530210495 -0.22854842245578766 0
+		 -0.089511044323444366 0.9957236647605896 0.022860690951347351 0 0.22968263924121857 -0.0016976203769445419 0.97326433658599854 0
+		 18.879117965698242 10.427528381347656 -8.4978322982788086 1;
+	setAttr ".RightAnkleEffectorGXM[0]" -type "matrix" 0.96915918588638306 -0.09235372394323349 0.22847647964954376 0
+		 0.089496247470378876 0.99572497606277466 0.022859238088130951 0 -0.22961084544658661 -0.0017064521089196205 0.9732811450958252 0
+		 -18.879146575927734 10.427505493164063 -8.4977426528930664 1;
+	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" 0.50850647687911987 -0.80682343244552612 -0.30076146125793457 0
+		 0.82653051614761353 0.35945016145706177 0.43317809700965881 0 -0.24138951301574707 -0.46886226534843445 0.84964680671691895 0
+		 48.295753479003906 89.512847900390625 6.0198650360107422 1;
+	setAttr ".RightWristEffectorGXM[0]" -type "matrix" -0.39265340566635132 -0.29157429933547974 -0.87224310636520386 0
+		 -0.51526886224746704 0.85532844066619873 -0.053963795304298401 0 0.76178842782974243 0.42825049161911011 -0.48608657717704773 0
+		 -43.368339538574219 114.73421478271484 46.061603546142578 1;
+	setAttr ".LeftKneeEffectorGXM[0]" -type "matrix" 0.96251660585403442 0.11364099383354187 -0.24626775085926056 0
+		 -0.051276464015245438 0.96785891056060791 0.24621167778968811 0 0.26633211970329285 -0.22435504198074341 0.93740725517272949 0
+		 16.841762542724609 48.883312225341797 1.2848734855651855 1;
+	setAttr ".RightKneeEffectorGXM[0]" -type "matrix" 0.96062880754470825 -0.064237385988235474 0.27030730247497559 0
+		 -0.014315720647573471 0.96016836166381836 0.27905568480491638 0 -0.2774662971496582 -0.27193853259086609 0.92144566774368286 0
+		 -19.447956085205078 48.57769775390625 2.5899324417114258 1;
+	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" 0.50850170850753784 -0.80682867765426636 -0.30075469613075256 0
+		 0.82653135061264038 0.35944688320159912 0.43317866325378418 0 -0.24139562249183655 -0.46885532140731812 0.84964859485626221 0
+		 32.933525085449219 113.88778686523438 15.105901718139648 1;
+	setAttr ".RightElbowEffectorGXM[0]" -type "matrix" -0.18219767510890961 0.25603395700454712 -0.94934231042861938 0
+		 -0.55934858322143555 0.76706725358963013 0.31422519683837891 0 0.80866152048110962 0.5882643461227417 0.0034544169902801514 0
+		 -48.872699737548828 122.46920013427734 17.381227493286133 1;
+	setAttr ".ChestOriginEffectorGXM[0]" -type "matrix" 0.99902439117431641 0.031033448874950409 0.031425263732671738 0
+		 -0.044134035706520081 0.72846680879592896 0.68365824222564697 0 -0.001675986684858799 -0.68437802791595459 0.72912561893463135 0
+		 -2.1097760200500488 98.788909912109375 2.7757179737091064 1;
+	setAttr ".ChestEndEffectorGXM[0]" -type "matrix" 0.9970935583114624 0.05367661640048027 0.054065950214862823 0
+		 -0.076123178005218506 0.73073244094848633 0.67840641736984253 0 -0.0030931886285543442 -0.68055039644241333 0.73269468545913696 0
+		 -4.9140787124633789 130.50990295410156 36.675567626953125 1;
+	setAttr ".LeftFootEffectorGXM[0]" -type "matrix" 0.96914094686508179 0.09236859530210495 -0.22854842245578766 0
+		 -0.089511044323444366 0.9957236647605896 0.0228606928139925 0 0.22968263924121857 -0.0016976222395896912 0.97326433658599854 0
+		 23.548578262329102 3.4382076263427734 8.4778261184692383 1;
+	setAttr ".RightFootEffectorGXM[0]" -type "matrix" 0.96915918588638306 -0.09235420823097229 0.22847624123096466 0
+		 0.089496716856956482 0.99572491645812988 0.022859353572130203 0 -0.22961060702800751 -0.0017064781859517097 0.97328120470046997 0
+		 -23.54865837097168 3.4381551742553711 8.4778814315795898 1;
+	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" 0.56238853931427002 -0.49460983276367188 -0.66263109445571899 0
+		 0.82652676105499268 0.35944986343383789 0.43318480253219604 0 0.023925244808197021 -0.79130059480667114 0.61095881462097168 0
+		 16.748802185058594 128.12191772460938 34.175434112548828 1;
+	setAttr ".RightShoulderEffectorGXM[0]" -type "matrix" 0.76809799671173096 0.33696034550666809 0.5445026159286499 0
+		 -0.55929744243621826 0.76708900928497314 0.31426233053207397 0 -0.31178802251815796 -0.54592323303222656 0.77766060829162598 0
+		 -26.767990112304688 132.16641235351563 33.051239013671875 1;
+	setAttr ".HeadEffectorGXM[0]" -type "matrix" 0.84459686279296875 -0.14124234020709991 0.51643705368041992 0
+		 0.071282461285591125 0.98565340042114258 0.1529926061630249 0 -0.53063678741455078 -0.092404134571552277 0.84254765510559082 0
+		 -9.5020122528076172 144.73797607421875 47.979148864746094 1;
+	setAttr ".LeftHipEffectorGXM[0]" -type "matrix" 0.95352733135223389 0.12079998850822449 -0.27603179216384888 0
+		 -0.17130553722381592 0.97099167108535767 -0.16682401299476624 0 0.24787212908267975 0.20635697245597839 0.94656050205230713 0
+		 10.00935173034668 87.610832214355469 -5.3688364028930664 1;
+	setAttr ".RightHipEffectorGXM[0]" -type "matrix" 0.94286972284317017 -0.080171205103397369 0.32337251305580139 0
+		 0.15539780259132385 0.9643930196762085 -0.21400494873523712 0 -0.29470106959342957 0.25203010439872742 0.92175513505935669 0
+		 -13.249740600585938 87.041908264160156 -5.945836067199707 1;
 createNode HIKState2Effector -n "HIKState2Effector2";
 	rename -uid "058C3350-4391-F6EB-2221-66BA2870410A";
 	setAttr ".ihi" 0;
-	setAttr ".HipsEffectorGXM[0]" -type "matrix" 0.99939370155334473 0.024445578455924988 0.024792401120066643 0
-		 -0.034793507307767868 0.72756266593933105 0.68515843152999878 0 -0.00128893181681633 -0.68560558557510376 0.72797209024429321 0
-		 -1.6201839447021484 87.326370239257813 -5.6573266983032227 1;
-	setAttr ".LeftAnkleEffectorGXM[0]" -type "matrix" 0.96914070844650269 0.092368543148040771 -0.22854854166507721 0
-		 -0.089511111378669739 0.99572348594665527 0.022860234603285789 0 0.22968269884586334 -0.0016971509903669357 0.97326409816741943 0
-		 18.879127502441406 10.427539825439453 -8.4977655410766602 1;
-	setAttr ".RightAnkleEffectorGXM[0]" -type "matrix" 0.96915894746780396 -0.092353940010070801 0.22847713530063629 0
-		 0.089496627449989319 0.99572485685348511 0.022858563810586929 0 -0.22961141169071198 -0.001705649308860302 0.97328096628189087 0
-		 -18.879171371459961 10.427711486816406 -8.4976100921630859 1;
-	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" 0.50850671529769897 -0.80682450532913208 -0.30075865983963013 0
-		 0.82653015851974487 0.35945126414299011 0.43317806720733643 0 -0.24139060080051422 -0.46885985136032104 0.84964799880981445 0
-		 48.295822143554688 89.512901306152344 6.0198993682861328 1;
-	setAttr ".RightWristEffectorGXM[0]" -type "matrix" -0.39265310764312744 -0.29157537221908569 -0.87224268913269043 0
-		 -0.51526886224746704 0.8553277850151062 -0.053965061902999878 0 0.76178836822509766 0.42824998497962952 -0.48608687520027161 0
-		 -43.368144989013672 114.73433685302734 46.0614013671875 1;
-	setAttr ".LeftKneeEffectorGXM[0]" -type "matrix" 0.96251630783081055 0.11364000290632248 -0.24626897275447845 0
-		 -0.051274992525577545 0.96785873174667358 0.24621231853961945 0 0.26633313298225403 -0.22435592114925385 0.93740665912628174 0
-		 16.841823577880859 48.883319854736328 1.2849717140197754 1;
-	setAttr ".RightKneeEffectorGXM[0]" -type "matrix" 0.96062940359115601 -0.064222082495689392 0.27030965685844421 0
-		 -0.014333292841911316 0.96016669273376465 0.27906098961830139 0 -0.2774641215801239 -0.27194854617118835 0.92144358158111572 0
-		 -19.448677062988281 48.577892303466797 2.5902843475341797 1;
-	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" 0.50850296020507813 -0.80682849884033203 -0.30075275897979736 0
-		 0.8265305757522583 0.3594491183757782 0.43317803740501404 0 -0.24139505624771118 -0.46885374188423157 0.84964948892593384 0
-		 32.93353271484375 113.88783264160156 15.105880737304688 1;
-	setAttr ".RightElbowEffectorGXM[0]" -type "matrix" -0.18219992518424988 0.25603142380714417 -0.94934242963790894 0
-		 -0.559348464012146 0.7670673131942749 0.31422442197799683 0 0.80866092443466187 0.58826488256454468 0.0034511536359786987 0
-		 -48.87255859375 122.46923828125 17.381015777587891 1;
-	setAttr ".ChestOriginEffectorGXM[0]" -type "matrix" 0.99902451038360596 0.031033460050821304 0.031425192952156067 0
-		 -0.044133994728326797 0.72846835851669312 0.68365675210952759 0 -0.0016760220751166344 -0.68437653779983521 0.72912716865539551 0
-		 -2.1097662448883057 98.788917541503906 2.775714635848999 1;
-	setAttr ".ChestEndEffectorGXM[0]" -type "matrix" 0.9970935583114624 0.05367669090628624 0.054065883159637451 0
-		 -0.076123178005218506 0.73073351383209229 0.6784052848815918 0 -0.0030931998044252396 -0.6805492639541626 0.73269575834274292 0
-		 -4.9140734672546387 130.50997924804688 36.675514221191406 1;
-	setAttr ".LeftFootEffectorGXM[0]" -type "matrix" 0.96914070844650269 0.092368558049201965 -0.22854852676391602 0
-		 -0.089511111378669739 0.99572348594665527 0.022860238328576088 0 0.22968268394470215 -0.001697152853012085 0.97326409816741943 0
-		 23.548593521118164 3.438227653503418 8.4778947830200195 1;
-	setAttr ".RightFootEffectorGXM[0]" -type "matrix" 0.96915894746780396 -0.092354238033294678 0.22847709059715271 0
-		 0.089496910572052002 0.99572485685348511 0.022858630865812302 0 -0.22961139678955078 -0.0017056511715054512 0.97328096628189087 0
-		 -23.548696517944336 3.4383730888366699 8.4780216217041016 1;
-	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" 0.56238847970962524 -0.49461027979850769 -0.66263139247894287 0
-		 0.82652711868286133 0.35945236682891846 0.43318271636962891 0 0.023927658796310425 -0.79129958152770996 0.61096060276031494 0
-		 16.748813629150391 128.12199401855469 34.175388336181641 1;
-	setAttr ".RightShoulderEffectorGXM[0]" -type "matrix" 0.76809412240982056 0.33696198463439941 0.54450750350952148 0
-		 -0.55930089950561523 0.76708829402923584 0.31425851583480835 0 -0.3117920458316803 -0.54592353105545044 0.77765899896621704 0
-		 -26.767978668212891 132.16650390625 33.051174163818359 1;
-	setAttr ".HeadEffectorGXM[0]" -type "matrix" 0.99709373712539673 0.053676579147577286 0.054065462201833725 0
-		 -0.076122790575027466 0.73073947429656982 0.67839908599853516 0 -0.003093622624874115 -0.68054306507110596 0.73270171880722046 0
-		 -6.1251749992370605 140.36613464355469 49.225933074951172 1;
-	setAttr ".LeftHipEffectorGXM[0]" -type "matrix" 0.95352679491043091 0.12080074101686478 -0.27603307366371155 0
-		 -0.1713070422410965 0.97099101543426514 -0.16682575643062592 0 0.24787290394306183 0.20635919272899628 0.94655972719192505 0
-		 10.009365081787109 87.610832214355469 -5.3688273429870605 1;
-	setAttr ".RightHipEffectorGXM[0]" -type "matrix" 0.94286513328552246 -0.080190390348434448 0.32338088750839233 0
-		 0.1554216742515564 0.96438783407211304 -0.21401089429855347 0 -0.29470288753509521 0.25204375386238098 0.92175078392028809 0
-		 -13.249732971191406 87.041908264160156 -5.9458255767822266 1;
+	setAttr ".HipsEffectorGXM[0]" -type "matrix" 0.99939370155334473 0.024445567280054092 0.024792419746518135 0
+		 -0.034793514758348465 0.7275620698928833 0.68515896797180176 0 -0.001288924366235733 -0.68560612201690674 0.72797149419784546 0
+		 -1.6201944351196289 87.326370239257813 -5.6573362350463867 1;
+	setAttr ".LeftAnkleEffectorGXM[0]" -type "matrix" 0.96914094686508179 0.09236859530210495 -0.22854842245578766 0
+		 -0.089511044323444366 0.9957236647605896 0.022860690951347351 0 0.22968263924121857 -0.0016976203769445419 0.97326433658599854 0
+		 18.879117965698242 10.427528381347656 -8.4978322982788086 1;
+	setAttr ".RightAnkleEffectorGXM[0]" -type "matrix" 0.96915918588638306 -0.09235372394323349 0.22847647964954376 0
+		 0.089496247470378876 0.99572497606277466 0.022859238088130951 0 -0.22961084544658661 -0.0017064521089196205 0.9732811450958252 0
+		 -18.879146575927734 10.427505493164063 -8.4977426528930664 1;
+	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" 0.50850647687911987 -0.80682343244552612 -0.30076146125793457 0
+		 0.82653051614761353 0.35945016145706177 0.43317809700965881 0 -0.24138951301574707 -0.46886226534843445 0.84964680671691895 0
+		 48.295753479003906 89.512847900390625 6.0198650360107422 1;
+	setAttr ".RightWristEffectorGXM[0]" -type "matrix" -0.39265340566635132 -0.29157429933547974 -0.87224310636520386 0
+		 -0.51526886224746704 0.85532844066619873 -0.053963795304298401 0 0.76178842782974243 0.42825049161911011 -0.48608657717704773 0
+		 -43.368339538574219 114.73421478271484 46.061603546142578 1;
+	setAttr ".LeftKneeEffectorGXM[0]" -type "matrix" 0.96251660585403442 0.11364099383354187 -0.24626775085926056 0
+		 -0.051276464015245438 0.96785891056060791 0.24621167778968811 0 0.26633211970329285 -0.22435504198074341 0.93740725517272949 0
+		 16.841762542724609 48.883312225341797 1.2848734855651855 1;
+	setAttr ".RightKneeEffectorGXM[0]" -type "matrix" 0.96062880754470825 -0.064237385988235474 0.27030730247497559 0
+		 -0.014315720647573471 0.96016836166381836 0.27905568480491638 0 -0.2774662971496582 -0.27193853259086609 0.92144566774368286 0
+		 -19.447956085205078 48.57769775390625 2.5899324417114258 1;
+	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" 0.50850170850753784 -0.80682867765426636 -0.30075469613075256 0
+		 0.82653135061264038 0.35944688320159912 0.43317866325378418 0 -0.24139562249183655 -0.46885532140731812 0.84964859485626221 0
+		 32.933525085449219 113.88778686523438 15.105901718139648 1;
+	setAttr ".RightElbowEffectorGXM[0]" -type "matrix" -0.18219767510890961 0.25603395700454712 -0.94934231042861938 0
+		 -0.55934858322143555 0.76706725358963013 0.31422519683837891 0 0.80866152048110962 0.5882643461227417 0.0034544169902801514 0
+		 -48.872699737548828 122.46920013427734 17.381227493286133 1;
+	setAttr ".ChestOriginEffectorGXM[0]" -type "matrix" 0.99902439117431641 0.031033448874950409 0.031425263732671738 0
+		 -0.044134035706520081 0.72846680879592896 0.68365824222564697 0 -0.001675986684858799 -0.68437802791595459 0.72912561893463135 0
+		 -2.1097760200500488 98.788909912109375 2.7757179737091064 1;
+	setAttr ".ChestEndEffectorGXM[0]" -type "matrix" 0.9970935583114624 0.05367661640048027 0.054065950214862823 0
+		 -0.076123178005218506 0.73073244094848633 0.67840641736984253 0 -0.0030931886285543442 -0.68055039644241333 0.73269468545913696 0
+		 -4.9140787124633789 130.50990295410156 36.675567626953125 1;
+	setAttr ".LeftFootEffectorGXM[0]" -type "matrix" 0.96914094686508179 0.09236859530210495 -0.22854842245578766 0
+		 -0.089511044323444366 0.9957236647605896 0.0228606928139925 0 0.22968263924121857 -0.0016976222395896912 0.97326433658599854 0
+		 23.548578262329102 3.4382076263427734 8.4778261184692383 1;
+	setAttr ".RightFootEffectorGXM[0]" -type "matrix" 0.96915918588638306 -0.09235420823097229 0.22847624123096466 0
+		 0.089496716856956482 0.99572491645812988 0.022859353572130203 0 -0.22961060702800751 -0.0017064781859517097 0.97328120470046997 0
+		 -23.54865837097168 3.4381551742553711 8.4778814315795898 1;
+	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" 0.56238853931427002 -0.49460983276367188 -0.66263109445571899 0
+		 0.82652676105499268 0.35944986343383789 0.43318480253219604 0 0.023925244808197021 -0.79130059480667114 0.61095881462097168 0
+		 16.748802185058594 128.12191772460938 34.175434112548828 1;
+	setAttr ".RightShoulderEffectorGXM[0]" -type "matrix" 0.76809799671173096 0.33696034550666809 0.5445026159286499 0
+		 -0.55929744243621826 0.76708900928497314 0.31426233053207397 0 -0.31178802251815796 -0.54592323303222656 0.77766060829162598 0
+		 -26.767990112304688 132.16641235351563 33.051239013671875 1;
+	setAttr ".HeadEffectorGXM[0]" -type "matrix" 0.84459686279296875 -0.14124234020709991 0.51643705368041992 0
+		 0.071282461285591125 0.98565340042114258 0.1529926061630249 0 -0.53063678741455078 -0.092404134571552277 0.84254765510559082 0
+		 -9.5020122528076172 144.73797607421875 47.979148864746094 1;
+	setAttr ".LeftHipEffectorGXM[0]" -type "matrix" 0.95352733135223389 0.12079998850822449 -0.27603179216384888 0
+		 -0.17130553722381592 0.97099167108535767 -0.16682401299476624 0 0.24787212908267975 0.20635697245597839 0.94656050205230713 0
+		 10.00935173034668 87.610832214355469 -5.3688364028930664 1;
+	setAttr ".RightHipEffectorGXM[0]" -type "matrix" 0.94286972284317017 -0.080171205103397369 0.32337251305580139 0
+		 0.15539780259132385 0.9643930196762085 -0.21400494873523712 0 -0.29470106959342957 0.25203010439872742 0.92175513505935669 0
+		 -13.249740600585938 87.041908264160156 -5.945836067199707 1;
 createNode skinCluster -n "skinCluster1";
 	rename -uid "4FB1ADC9-4C98-ED7F-A392-C591577AF22C";
 	setAttr ".skm" 1;
