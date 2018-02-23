@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff07 scene
-//Name: BlueRobotModel_003.ma
-//Last modified: Thu, Feb 22, 2018 08:49:55 PM
+//Name: BlueRobotModel_004.ma
+//Last modified: Thu, Feb 22, 2018 08:50:02 PM
 //Codeset: 1252
 requires maya "2018ff07";
 requires "stereoCamera" "10.0";
@@ -51571,7 +51571,7 @@ createNode makeNurbCircle -n "makeNurbCircle1";
 	rename -uid "CC638405-4155-21C8-7361-ED890D0F972E";
 	setAttr ".nr" -type "double3" 0 1 0 ;
 createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
-	rename -uid "366CA92C-488F-F41D-2B3B-ADA133C7C587";
+	rename -uid "B7728AD8-4280-9CCA-47D0-46AAF7F3C9C2";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -757.73806512828992 -45.833331512080377 ;
 	setAttr ".tgi[0].vh" -type "double2" 785.11901642122098 43.45237922573854 ;
@@ -53787,4 +53787,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "orange_model_01_defaultRenderLayer.msg" ":defaultRenderingList1.r" 
 		-na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of BlueRobotModel_003.ma
+// End of BlueRobotModel_004.ma
