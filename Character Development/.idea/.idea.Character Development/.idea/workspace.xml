@@ -10,30 +10,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="525">
               <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnIdle.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <marker date="1519867039395" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519867039395" expanded="true" signature="282:5135" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="655:838" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="854:1006" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1086:1110" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1209:1234" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1251:1355" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1275:1352" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1358:1382" ph="/// MOVE INPUT ... " />
-                <marker date="1519867039395" expanded="true" signature="1400:1964" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1430:1961" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1456:1520" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1529:1601" ph="{...}" />
-                <marker date="1519867039395" expanded="true" signature="1969:1994" ph="/* ABILITIES ... */" />
-                <marker date="1519867039395" expanded="true" signature="1996:4269" ph="/* void AbilityInput() ... */" />
-                <marker date="1519867039395" expanded="true" signature="4272:4294" ph="/* canMove = true; ... */" />
-                <marker date="1519867039395" expanded="true" signature="4300:5125" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
+                <marker date="1519928454853" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519928454853" expanded="true" signature="124:1521" ph="{...}" />
+                <marker date="1519928454853" expanded="true" signature="326:334" ph="{...}" />
+                <marker date="1519928454853" expanded="true" signature="337:1519" ph="/* OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine ... */" />
               </folding>
             </state>
           </provider>
@@ -42,21 +39,9 @@
       <file leaf-file-name="SO_Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="600">
               <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-              <folding>
-                <marker date="1519248808000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519248808000" expanded="true" signature="278:1219" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-                <marker date="1519248808000" expanded="true" signature="489:649" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="575:618" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-                <marker date="1519248808000" expanded="true" signature="838:899" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-                <marker date="1519248808000" expanded="true" signature="1090:1217" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="1127:1157" ph="{...}" />
-                <marker date="1519248808000" expanded="true" signature="1165:1197" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,13 +49,9 @@
       <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="150">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <marker date="1519866651871" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519866651871" expanded="true" signature="182:408" ph="{...}" />
-                <marker date="1519866651871" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,16 +59,9 @@
       <file leaf-file-name="ABS_Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="435">
               <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding>
-                <marker date="1519866680878" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519866680878" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-                <marker date="1519866680878" expanded="true" signature="240:1348" ph="{...}" />
-                <marker date="1519866680878" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-                <marker date="1519866680878" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-                <marker date="1519866680878" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +70,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -106,6 +81,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animation/OnIdle.cs" />
       </list>
     </option>
   </component>
@@ -115,9 +91,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="width" value="1278" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="592" />
+    <option name="width" value="1335" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -135,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -148,7 +125,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,6 +148,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8461999f-4a7b-4b63-ba42-8708dc74869b" name="Default" comment="" />
@@ -180,11 +159,13 @@
       <option name="presentableId" value="Default" />
       <updated>1519865914428</updated>
       <workItem from="1519865918270" duration="1424000" />
+      <workItem from="1519919594837" duration="87000" />
+      <workItem from="1519919723426" duration="1324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1424000" />
+    <option name="totallyTimeSpent" value="2835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,29 +177,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="0" width="1278" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2545156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -233,75 +213,124 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <marker date="1519248808000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519248808000" expanded="true" signature="278:1219" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-            <marker date="1519248808000" expanded="true" signature="489:649" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="575:618" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-            <marker date="1519248808000" expanded="true" signature="838:899" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-            <marker date="1519248808000" expanded="true" signature="1090:1217" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="1127:1157" ph="{...}" />
-            <marker date="1519248808000" expanded="true" signature="1165:1197" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1519866651871" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519866651871" expanded="true" signature="182:408" ph="{...}" />
-            <marker date="1519866651871" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="435">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519866680878" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519866680878" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-            <marker date="1519866680878" expanded="true" signature="240:1348" ph="{...}" />
-            <marker date="1519866680878" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-            <marker date="1519866680878" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-            <marker date="1519866680878" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
+            <marker date="1519928454853" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519928454853" expanded="true" signature="124:1521" ph="{...}" />
+            <marker date="1519928454853" expanded="true" signature="326:334" ph="{...}" />
+            <marker date="1519928454853" expanded="true" signature="337:1519" ph="/* OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
           <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <marker date="1519867039395" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519867039395" expanded="true" signature="282:5135" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="655:838" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="854:1006" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1086:1110" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1209:1234" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1251:1355" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1275:1352" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1358:1382" ph="/// MOVE INPUT ... " />
-            <marker date="1519867039395" expanded="true" signature="1400:1964" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1430:1961" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1456:1520" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1529:1601" ph="{...}" />
-            <marker date="1519867039395" expanded="true" signature="1969:1994" ph="/* ABILITIES ... */" />
-            <marker date="1519867039395" expanded="true" signature="1996:4269" ph="/* void AbilityInput() ... */" />
-            <marker date="1519867039395" expanded="true" signature="4272:4294" ph="/* canMove = true; ... */" />
-            <marker date="1519867039395" expanded="true" signature="4300:5125" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
+            <marker date="1519928454853" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519928454853" expanded="true" signature="124:1521" ph="{...}" />
+            <marker date="1519928454853" expanded="true" signature="326:334" ph="{...}" />
+            <marker date="1519928454853" expanded="true" signature="337:1519" ph="/* OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine ... */" />
           </folding>
         </state>
       </provider>
