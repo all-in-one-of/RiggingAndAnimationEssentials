@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 	private float speed = 0;
 	[HideInInspector]public Vector3 move = Vector3.zero;
 
+	public Animator anim;
 	private Animator weaponAnims;
 
     public Transform CameraPos;
@@ -31,7 +32,7 @@ public class PlayerController : MonoBehaviour
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();
-		weaponAnims = GetComponent<Animator>();
+		anim = GetComponent<Animator>();
         canMove = true;
 		//primaryAbility.SetupAbility ();
 	}
@@ -81,6 +82,35 @@ public class PlayerController : MonoBehaviour
 			move.x = Input.GetAxis("Horizontal") * speed;
 			move.z = Input.GetAxis("Vertical") * speed;
 			move.y = verticalVelocity;
+
+			if (verticalVelocity > 0)
+			{
+				anim.SetTrigger("Jump");
+			}
+			
+			if (Input.GetAxis("Horizontal") != 0)
+			{
+				anim.SetBool("IsMoving", true);
+				anim.SetBool("IsIdle", false);
+
+			}
+			else
+			{
+				anim.SetBool("IsMoving", false);
+				anim.SetBool("IsIdle", true);
+			}
+			
+			if (Input.GetAxis("Vertical") != 0)
+			{
+				anim.SetBool("IsMoving", true);
+				anim.SetBool("IsIdle", false);
+
+			}
+			else
+			{
+				anim.SetBool("IsMoving", false);
+				anim.SetBool("IsIdle", true);
+			}
 
 			//this makes the character controller move based off the local rotation and not global
 			move = transform.TransformDirection(move);

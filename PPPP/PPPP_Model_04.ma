@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: PPPP_Model_03.ma
-//Last modified: Tue, Mar 06, 2018 02:45:20 PM
+//Name: PPPP_Model_04.ma
+//Last modified: Tue, Mar 06, 2018 03:46:57 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "48B07C99-4B8B-529F-38C7-96AD1FAA3BCD";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.5265621330299752 2.235062358892228 0.69189538648386151 ;
-	setAttr ".r" -type "double3" -26.73750947274814 4252.6005010868757 -0.0010052492753217614 ;
+	setAttr ".t" -type "double3" 9.1824377471728411 8.0239404416944851 6.7940646155247579 ;
+	setAttr ".r" -type "double3" -38.13875036771033 4359.0005010826726 -0.00049710539280720513 ;
 	setAttr ".rp" -type "double3" 4.4408920985006262e-016 0 0 ;
 	setAttr ".rpt" -type "double3" -3.5302936817122622e-017 3.0814879110195774e-033 
 		1.7351947811439372e-016 ;
@@ -24,7 +24,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3A1373E0-42DC-6A71-BDD7-8182D17ED62B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 3.6387192613192614;
+	setAttr ".coi" 10.70561595188709;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -29002,4 +29002,4 @@ connectAttr "groupId90.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId91.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId92.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId93.msg" ":initialShadingGroup.gn" -na;
-// End of PPPP_Model_03.ma
+// End of PPPP_Model_04.ma
