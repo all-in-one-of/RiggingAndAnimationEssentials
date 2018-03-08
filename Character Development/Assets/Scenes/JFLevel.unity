@@ -24625,7 +24625,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 895105445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -24696,23 +24696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a6e21b70c4a894cb6fd99018cce5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PPPPEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 895105456}
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-    m_CallsDirty: 1
 --- !u!95 &895105456
 Animator:
   serializedVersion: 3
@@ -24958,39 +24941,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731c8a78f997b4bab8890270e4fcdf77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rounds:
-  - {fileID: 11400000, guid: faee2881d6fa05c4fb3936e5e572de3e, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  - {fileID: 11400000, guid: 8623f587db9b30d49af13d135c7cc0ff, type: 2}
-  currentRound: {fileID: 0}
-  roundNumber: 0
-  defaultEnemyPoolSize: 10
-  smallEnemySO: {fileID: 11400000, guid: 1a3addd2344c3164daeab2e056c8d31d, type: 2}
-  medEnemySO: {fileID: 11400000, guid: 10b3de34fc15afb48998e0c25a6010d5, type: 2}
-  bigEnemySO: {fileID: 11400000, guid: fdec532f781e94441b41dc11094d326e, type: 2}
-  smallEnemies: []
-  medEnemies: []
-  bigEnemies: []
-  lastSmlEn: 0
-  lastMedEn: 0
-  lastBigEn: 0
-  roundEnemy: 0
-  poolLocation: {fileID: 961443524}
-  playerPos: {fileID: 895105451}
-  enemySpawnPoints:
-  - {fileID: 653987979}
-  - {fileID: 81086095}
-  - {fileID: 812246887}
-  - {fileID: 1536730681}
-  - {fileID: 981450475}
-  playerActive: 1
 --- !u!1 &970082642 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100356, guid: aaed0d88baaf45843a93d6ddf10b1857, type: 3}
@@ -33553,7 +33503,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1708441570}
   - {fileID: 212312947}
   m_Father: {fileID: 895105451}
   m_RootOrder: 0
@@ -54768,106 +54717,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300096, guid: aaed0d88baaf45843a93d6ddf10b1857, type: 3}
---- !u!1 &1708441569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1708441570}
-  - component: {fileID: 1708441573}
-  - component: {fileID: 1708441572}
-  - component: {fileID: 1708441571}
-  - component: {fileID: 1708441574}
-  m_Layer: 0
-  m_Name: Weapon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1708441570
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708441569}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -0.72, z: 0.8}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1211578544}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1708441571
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708441569}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1708441572
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708441569}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1708441573
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708441569}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1708441574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708441569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68112e55ca38b404c901383cd4178b39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ammoClip: []
-  projSpawn: {fileID: 0}
-  projectile: {fileID: 0}
-  speed: 10
-  i: 0
-  ammo: 1
 --- !u!1 &1819236150
 GameObject:
   m_ObjectHideFlags: 0
