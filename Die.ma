@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff07 scene
 //Name: Die.ma
-//Last modified: Mon, Mar 12, 2018 03:25:14 PM
+//Last modified: Tue, Mar 13, 2018 08:30:23 AM
 //Codeset: 1252
 requires maya "2018ff07";
 requires -nodeType "bulletRigidBodyShape" -nodeType "bulletSolverShape" -dataType "bulletSolverData"
