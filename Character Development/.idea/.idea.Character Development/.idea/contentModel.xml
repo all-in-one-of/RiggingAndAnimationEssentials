@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10795516\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Character Development.1210862107.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10795516\Git Repos\RiggingAndAnimationEssentials\Character Development" t="IncludeRecursive">
+    <e p="C:\Users\jonat\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Character Development.934536773.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jonat\Git Repos\RiggingAndAnimationEssentials\Character Development" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AI" t="Include">
+          <e p="AIBase.cs" t="Include" />
+          <e p="AIPatrol.cs" t="Include" />
+          <e p="NavMeshBehaviour.cs" t="Include" />
+        </e>
         <e p="Animation" t="Include">
           <e p="PPPP" t="Include">
+            <e p="LightValueSO.cs" t="Include" />
             <e p="OnIdle.cs" t="Include" />
             <e p="OnJump.cs" t="Include" />
             <e p="OnMovement.cs" t="Include" />
@@ -31,6 +37,9 @@
             <e p="PlayerMotor.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="SpawnCharacter.cs" t="Include" />
+          </e>
+          <e p="Die" t="Include">
+            <e p="DieForce.cs" t="Include" />
           </e>
           <e p="GameStateManager.cs" t="Include" />
           <e p="InputHandler.cs" t="Include" />

@@ -11,81 +11,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
-              <folding>
-                <marker date="1520356279951" expanded="false" signature="6:78" ph="..." />
-                <marker date="1520356279951" expanded="true" signature="282:5650" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="678:861" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="877:1022" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1102:1126" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1225:1250" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1267:1371" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1291:1368" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1374:1398" ph="/// MOVE INPUT ... " />
-                <marker date="1520356279951" expanded="true" signature="1416:2479" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1446:2476" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1472:1536" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1545:1617" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1831:1870" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="1915:1997" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="2005:2086" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="2129:2211" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="2219:2300" ph="{...}" />
-                <marker date="1520356279951" expanded="true" signature="2484:2509" ph="/* ABILITIES ... */" />
-                <marker date="1520356279951" expanded="true" signature="2511:4784" ph="/* void AbilityInput() ... */" />
-                <marker date="1520356279951" expanded="true" signature="4787:4809" ph="/* canMove = true; ... */" />
-                <marker date="1520356279951" expanded="true" signature="4815:5640" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
-              </folding>
+            <state relative-caret-position="1335">
+              <caret line="119" column="8" lean-forward="false" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnIdle.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnIdle.cs">
+      <file leaf-file-name="DieForce.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Die/DieForce.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
-                <marker date="1520365193969" expanded="true" signature="6:104" ph="..." />
-                <marker date="1520365193969" expanded="true" signature="149:1623" ph="{...}" />
-                <marker date="1520365193969" expanded="true" signature="381:419" ph="{...}" />
-                <marker date="1520365193969" expanded="true" signature="619:648" ph="{...}" />
-                <marker date="1520365193969" expanded="true" signature="651:1621" ph="/* OnStateExit is called before OnStateExit is called on any state inside this state machine ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnJump.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnJump.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <marker date="1520365212417" expanded="true" signature="6:104" ph="..." />
-                <marker date="1520365212417" expanded="true" signature="149:1343" ph="{...}" />
-                <marker date="1520365212417" expanded="true" signature="388:418" ph="{...}" />
-                <marker date="1520365212417" expanded="true" signature="421:1341" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnMovement.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <marker date="1520365232098" expanded="true" signature="6:104" ph="..." />
-                <marker date="1520365232098" expanded="true" signature="153:1378" ph="{...}" />
-                <marker date="1520365232098" expanded="true" signature="395:436" ph="{...}" />
-                <marker date="1520365232098" expanded="true" signature="634:663" ph="{...}" />
-                <marker date="1520365232098" expanded="true" signature="666:1376" ph="/* OnStateExit is called when a transition ends and the state machine finishes evaluating this state ... */" />
+                <marker date="1520887250619" expanded="false" signature="6:78" ph="..." />
+                <marker date="1520887250619" expanded="true" signature="117:355" ph="{...}" />
+                <marker date="1520887250619" expanded="true" signature="220:352" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,11 +39,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnJump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Die/DieForce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnIdle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -113,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Animation/PPPP/OnIdle.cs" />
         <option value="$PROJECT_DIR$/Assets/Animation/PPPP/OnJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Animation/PPPP/OnMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Die/DieForce.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +65,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="592" />
     <option name="width" value="1335" />
     <option name="height" value="1047" />
@@ -193,11 +136,12 @@
       <workItem from="1519919594837" duration="87000" />
       <workItem from="1519919723426" duration="1324000" />
       <workItem from="1520354677479" duration="5780000" />
+      <workItem from="1520886348249" duration="1502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8615000" />
+    <option name="totallyTimeSpent" value="10117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,7 +153,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="592" y="0" width="1335" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -220,7 +164,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16679302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11513859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -248,170 +192,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <marker date="1520356279951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520356279951" expanded="true" signature="282:5650" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="678:861" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="877:1022" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1102:1126" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1225:1250" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1267:1371" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1291:1368" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1374:1398" ph="/// MOVE INPUT ... " />
-            <marker date="1520356279951" expanded="true" signature="1416:2479" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1446:2476" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1472:1536" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1545:1617" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1831:1870" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1915:1997" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2005:2086" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2129:2211" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2219:2300" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2484:2509" ph="/* ABILITIES ... */" />
-            <marker date="1520356279951" expanded="true" signature="2511:4784" ph="/* void AbilityInput() ... */" />
-            <marker date="1520356279951" expanded="true" signature="4787:4809" ph="/* canMove = true; ... */" />
-            <marker date="1520356279951" expanded="true" signature="4815:5640" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <marker date="1519918832677" expanded="true" signature="6:78" ph="..." />
-            <marker date="1519918832677" expanded="true" signature="278:1219" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="489:649" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="575:618" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-            <marker date="1519918832677" expanded="true" signature="838:899" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="1090:1217" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1127:1157" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1165:1197" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1519918832669" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832669" expanded="true" signature="182:408" ph="{...}" />
-            <marker date="1519918832669" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1519918832650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832650" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-            <marker date="1519918832650" expanded="true" signature="240:1348" ph="{...}" />
-            <marker date="1519918832650" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-            <marker date="1519918832650" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-            <marker date="1519918832650" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <marker date="1520356279951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520356279951" expanded="true" signature="282:5650" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="678:861" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="877:1022" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1102:1126" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1225:1250" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1267:1371" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1291:1368" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1374:1398" ph="/// MOVE INPUT ... " />
-            <marker date="1520356279951" expanded="true" signature="1416:2479" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1446:2476" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1472:1536" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1545:1617" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1831:1870" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1915:1997" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2005:2086" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2129:2211" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2219:2300" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2484:2509" ph="/* ABILITIES ... */" />
-            <marker date="1520356279951" expanded="true" signature="2511:4784" ph="/* void AbilityInput() ... */" />
-            <marker date="1520356279951" expanded="true" signature="4787:4809" ph="/* canMove = true; ... */" />
-            <marker date="1520356279951" expanded="true" signature="4815:5640" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <marker date="1519918832677" expanded="true" signature="6:78" ph="..." />
-            <marker date="1519918832677" expanded="true" signature="278:1219" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="489:649" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="575:618" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-            <marker date="1519918832677" expanded="true" signature="838:899" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="1090:1217" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1127:1157" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1165:1197" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1519918832669" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832669" expanded="true" signature="182:408" ph="{...}" />
-            <marker date="1519918832669" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1519918832650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832650" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-            <marker date="1519918832650" expanded="true" signature="240:1348" ph="{...}" />
-            <marker date="1519918832650" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-            <marker date="1519918832650" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-            <marker date="1519918832650" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -420,32 +200,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520356279951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520356279951" expanded="true" signature="282:5650" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="678:861" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="877:1022" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1102:1126" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1225:1250" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1267:1371" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1291:1368" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1374:1398" ph="/// MOVE INPUT ... " />
-            <marker date="1520356279951" expanded="true" signature="1416:2479" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1446:2476" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1472:1536" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1545:1617" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1831:1870" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1915:1997" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2005:2086" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2129:2211" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2219:2300" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2484:2509" ph="/* ABILITIES ... */" />
-            <marker date="1520356279951" expanded="true" signature="2511:4784" ph="/* void AbilityInput() ... */" />
-            <marker date="1520356279951" expanded="true" signature="4787:4809" ph="/* canMove = true; ... */" />
-            <marker date="1520356279951" expanded="true" signature="4815:5640" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,19 +210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <marker date="1519918832677" expanded="true" signature="6:78" ph="..." />
-            <marker date="1519918832677" expanded="true" signature="278:1219" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="489:649" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="575:618" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-            <marker date="1519918832677" expanded="true" signature="838:899" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="1090:1217" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1127:1157" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1165:1197" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,11 +217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1519918832669" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832669" expanded="true" signature="182:408" ph="{...}" />
-            <marker date="1519918832669" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,14 +224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1519918832650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832650" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-            <marker date="1519918832650" expanded="true" signature="240:1348" ph="{...}" />
-            <marker date="1519918832650" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-            <marker date="1519918832650" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-            <marker date="1519918832650" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +231,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SO_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Abstract/ABS_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/OnIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -508,7 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,14 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1519918832650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832650" expanded="true" signature="80:187" ph="/* Abstract player scriptable object ... */" />
-            <marker date="1519918832650" expanded="true" signature="240:1348" ph="{...}" />
-            <marker date="1519918832650" expanded="true" signature="631:923" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-            <marker date="1519918832650" expanded="true" signature="981:1130" ph="/* abstract function that returns the player vertical velocity to default ... */" />
-            <marker date="1519918832650" expanded="true" signature="1196:1304" ph="/* abstract function that changes players speed to run or walk ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,19 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1519918832677" expanded="true" signature="6:78" ph="..." />
-            <marker date="1519918832677" expanded="true" signature="278:1219" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="282:436" ph="/* makes the player jump when the jump button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="489:649" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="575:618" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="652:778" ph="/* resets the virtical velocity to default ... */" />
-            <marker date="1519918832677" expanded="true" signature="838:899" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="902:1049" ph="/* Allows the player to sprint when the sprint button is pressed ... */" />
-            <marker date="1519918832677" expanded="true" signature="1090:1217" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1127:1157" ph="{...}" />
-            <marker date="1519918832677" expanded="true" signature="1165:1197" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,90 +331,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1519918832669" expanded="false" signature="6:78" ph="..." />
-            <marker date="1519918832669" expanded="true" signature="182:408" ph="{...}" />
-            <marker date="1519918832669" expanded="true" signature="255:405" ph="/* public Elemental.elementType currentElement = Elemental.elementType.Neutral; ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/Event.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/Event.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnMovement.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnJump.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnIdle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="1335">
+          <caret line="119" column="8" lean-forward="false" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Die/DieForce.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <marker date="1520365232098" expanded="true" signature="6:104" ph="..." />
-            <marker date="1520365232098" expanded="true" signature="153:1378" ph="{...}" />
-            <marker date="1520365232098" expanded="true" signature="395:436" ph="{...}" />
-            <marker date="1520365232098" expanded="true" signature="634:663" ph="{...}" />
-            <marker date="1520365232098" expanded="true" signature="666:1376" ph="/* OnStateExit is called when a transition ends and the state machine finishes evaluating this state ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnJump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1520365212417" expanded="true" signature="6:104" ph="..." />
-            <marker date="1520365212417" expanded="true" signature="149:1343" ph="{...}" />
-            <marker date="1520365212417" expanded="true" signature="388:418" ph="{...}" />
-            <marker date="1520365212417" expanded="true" signature="421:1341" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animation/PPPP/OnIdle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <marker date="1520365193969" expanded="true" signature="6:104" ph="..." />
-            <marker date="1520365193969" expanded="true" signature="149:1623" ph="{...}" />
-            <marker date="1520365193969" expanded="true" signature="381:419" ph="{...}" />
-            <marker date="1520365193969" expanded="true" signature="619:648" ph="{...}" />
-            <marker date="1520365193969" expanded="true" signature="651:1621" ph="/* OnStateExit is called before OnStateExit is called on any state inside this state machine ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
-          <folding>
-            <marker date="1520356279951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520356279951" expanded="true" signature="282:5650" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="678:861" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="877:1022" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1102:1126" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1225:1250" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1267:1371" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1291:1368" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1374:1398" ph="/// MOVE INPUT ... " />
-            <marker date="1520356279951" expanded="true" signature="1416:2479" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1446:2476" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1472:1536" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1545:1617" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1831:1870" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="1915:1997" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2005:2086" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2129:2211" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2219:2300" ph="{...}" />
-            <marker date="1520356279951" expanded="true" signature="2484:2509" ph="/* ABILITIES ... */" />
-            <marker date="1520356279951" expanded="true" signature="2511:4784" ph="/* void AbilityInput() ... */" />
-            <marker date="1520356279951" expanded="true" signature="4787:4809" ph="/* canMove = true; ... */" />
-            <marker date="1520356279951" expanded="true" signature="4815:5640" ph="/* IEnumerator AbilityMove(List&lt;Vector3&gt; _posList) ... */" />
+            <marker date="1520887250619" expanded="false" signature="6:78" ph="..." />
+            <marker date="1520887250619" expanded="true" signature="117:355" ph="{...}" />
+            <marker date="1520887250619" expanded="true" signature="220:352" ph="{...}" />
           </folding>
         </state>
       </provider>
